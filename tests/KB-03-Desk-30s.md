@@ -14,23 +14,24 @@ Caption: CAP-0301
 | 3 | 15–23s | Same presenter sitting at desk with exact cushion, natural posture and visible face; no invented cover removal. | Removable, washable cover. |
 | 4 | 23–30s | Same presenter next to the same chair with cushion, relaxed face toward camera. | Should office chairs just come like this? |
 
-## Prompt for the ENTIRE 30-second video
+## Two separate 15-second video prompts (join into30s)
 
-Create ONE complete 30-second vertical 9:16 product-demo video (1080×1920, 30fps) from the attached FOUR-panel Sevolra storyboard. Use the sheet as a shot guide; do NOT animate the whole grid or show the four panels simultaneously. Read panels 1→2→3→4 in order, and render each as a full-screen sequential shot.
+PART 1 · 15s · storyboard 0–15s
+Render ONE 15-second vertical 9:16 video, part 1/2. Attach the SAME four-panel storyboard for this run; use ONLY panels 1 and 2 as full-screen sequential shots, never the grid.
+REFERENCE LOCK: Same Alex, wavy dark hair, grey T-shirt, neat stubble; match exact face/outfit, product and setting from the images. Same bright office, pale oak desk and black mesh chair; same viewpoint and lighting. front three-quarter camera, soft morning daylight
+PRODUCT LOCK: Same Sevolra one-piece black/grey cushion, ribs and tailbone cutout;44×40×37cm. Fixed size/shape; seat and cushion face forward. No extra people/details.
+0–7s · panel1: Presenter standing beside the mesh office chair with exact cushion, full face visible. Text EXACT: "Seat + Back Support In One?!".
+7–15s · panel2: Same presenter holds cushion at waist height, its ribs and cutout visible; no squeezing. Text EXACT: "One-piece seat + lumbar.".
+Clean cuts, subtle movement; copy lowered readable text placement, clear of face/product. No added CTA. No grid/numbers/times, title cards, dialogue, medical claims or morphing. Exactly15.0s.
 
-IDENTITY: the exact 32-year-old male office worker in the attached DESK-01 portrait, wavy dark brown hair, neat stubble, grey T-shirt, unobstructed face. Only this character; keep the same unobstructed face and outfit throughout.
-PRODUCT: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads. Preserve attached official reference exactly.
-SETTING: a bright WFH room, pale oak desk and black mesh office chair. front three-quarter camera, soft morning daylight. Keep the same desk and chair throughout.
-
-
-
-EXACT 30-SECOND TIMELINE:
-0.0–7.0 seconds — PANEL 1: Presenter standing beside the mesh office chair with exact cushion, full face visible. One simple action or gentle camera push-in only. On-screen text, verbatim: "Seat + Back Support In One?!". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.
-7.0–15.0 seconds — PANEL 2: Same presenter holds cushion at waist height, its ribs and cutout visible; no squeezing. One simple action or gentle camera push-in only. On-screen text, verbatim: "One-piece seat + lumbar.". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.
-15.0–23.0 seconds — PANEL 3: Same presenter sitting at desk with exact cushion, natural posture and visible face; no invented cover removal. One simple action or gentle camera push-in only. On-screen text, verbatim: "Removable, washable cover.". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.
-23.0–30.0 seconds — PANEL 4: Same presenter next to the same chair with cushion, relaxed face toward camera. One simple action or gentle camera push-in only. On-screen text, verbatim: "Should office chairs just come like this?". CTA in lower middle68–82% of frame height stays visible through the final second, not at the top or extreme bottom.
-
-Use clean cuts between shots. No orange chapter cards, blank title screens, contact-sheet grid, panel numbers or timestamps in the final video. Keep exact English text as specified; final shot has ONE CTA: "Should office chairs just come like this?". No extra CTA, medical claims, invented testimonial, deep foam compression, fake product details, split cushions, extra characters or face changes. Ambient sound only; no dialogue or simulated customer review. Duration exactly 30.0 seconds; no loop beyond 30 seconds. If the selected renderer cannot output 30 seconds in one call, retain this single master prompt/timeline and render compatible clips for assembly; do not label a shorter clip as a 30-second video.
+PART 2 · 15s · storyboard 15–30s
+Render ONE 15-second vertical 9:16 video, part 2/2. Attach the SAME four-panel storyboard for this run; use ONLY panels 3 and 4 as full-screen sequential shots, never the grid.
+REFERENCE LOCK: Same Alex, wavy dark hair, grey T-shirt, neat stubble; match exact face/outfit, product and setting from the images. Same bright office, pale oak desk and black mesh chair; same viewpoint and lighting. front three-quarter camera, soft morning daylight
+PRODUCT LOCK: Same Sevolra one-piece black/grey cushion, ribs and tailbone cutout;44×40×37cm. Fixed size/shape; seat and cushion face forward. No extra people/details.
+CONTINUITY RESET: New call, same references. From frame one, preserve face/product/setting/seat/lighting. Optional clip1 last-frame reference locks identity/lighting; panel3 defines pose.
+0–8s · panel3: Same presenter sitting at desk with exact cushion, natural posture and visible face; no invented cover removal. Text EXACT: "Removable, washable cover.".
+8–15s · panel4: Same presenter next to the same chair with cushion, relaxed face toward camera. Text EXACT: "Should office chairs just come like this?".
+Clean cuts, subtle movement; copy lowered readable text placement, clear of face/product. Hold the final CTA through15s. No grid/numbers/times, title cards, dialogue, medical claims or morphing. Exactly15.0s.
 
 ## Prompt for ONE numbered storyboard image
 
