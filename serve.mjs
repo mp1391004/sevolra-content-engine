@@ -1,7 +1,7 @@
 import {oauthReady,imageCommand,createLoginManager,oauthEnvironment} from './provider.mjs';
 import {assertSpatialPlan} from './spatial.mjs';
 import {reviewImage} from './visual-qa.mjs';
-import http from 'node:http';import path from 'node:path';import{fileURLToPath}from'node:url';import{readFile,writeFile,mkdir,readdir,access}from'node:fs/promises';import{spawn}from'node:child_process';import{draft30}from'./engine.mjs';import{mapLimit,validateBatch}from'./batch.mjs';
+import http from 'node:http';import path from 'node:path';import{fileURLToPath}from'node:url';import{readFile,writeFile,mkdir,readdir,access}from'node:fs/promises';import{spawn}from'node:child_process';import{draft30}from'./engine.mjs';import{mapLimit,validateBatch,assertBatchVariety}from'./batch.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url));const port=Number(process.env.PORT||4329);const host='127.0.0.1';
 const data=JSON.parse(await readFile(path.join(root,'data.json'),'utf8'));const batches=new Map();const writes=new Map();const login=createLoginManager();let globalActive=0;const globalWaiters=[];
 await mkdir(path.join(root,'generated/images'),{recursive:true});await mkdir(path.join(root,'generated/batches'),{recursive:true});
@@ -37,7 +37,8 @@ const server=http.createServer(async(req,res)=>{try{
    let input;try{input=validateBatch(await inputJson(req));assertSpatialPlan(draft30(data,input.kb,input.page,input.cap));}catch(e){return send(res,400,{error:e.message});}
    if(!(await oauthReady()))return send(res,503,{error:'Bấm Đăng nhập GPT trước khi tạo ảnh.'});
    if([...batches.values()].filter(b=>b.status==='running').length>=3)return send(res,429,{error:'Đang có 3 lô chạy. Chờ một lô hoàn tất rồi chạy tiếp.'});
-   const id='B-'+Date.now()+'-'+Math.random().toString(36).slice(2,7);const b={id,...input,status:'running',active:0,peak_active:0,created_at:new Date().toISOString(),jobs:Array.from({length:input.count},(_,i)=>({id:id+'-'+(i+1),index:i+1,status:'queued',story:draft30(data,input.kb,input.page,input.cap,i)}))};batches.set(id,b);await persist(b);send(res,202,b);runBatch(b).catch(async()=>{b.status='error';b.error='Lô chạy bị gián đoạn; các ảnh đã tạo vẫn được giữ.';await persist(b);});return;
+   const variant_start=[...batches.values()].filter(b=>b.kb===input.kb&&b.page===input.page&&b.cap===input.cap).reduce((n,b)=>n+b.count,0)%12;
+   const id='B-'+Date.now()+'-'+Math.random().toString(36).slice(2,7);const b={id,...input,variant_start,status:'running',active:0,peak_active:0,created_at:new Date().toISOString(),jobs:Array.from({length:input.count},(_,i)=>({id:id+'-'+(i+1),index:i+1,status:'queued',story:draft30(data,input.kb,input.page,input.cap,(variant_start+i)%12)}))};assertBatchVariety(b.jobs);batches.set(id,b);await persist(b);send(res,202,b);runBatch(b).catch(async()=>{b.status='error';b.error='Lô chạy bị gián đoạn; các ảnh đã tạo vẫn được giữ.';await persist(b);});return;
   }
   return send(res,404,{error:'Không tìm thấy thao tác.'});
  }

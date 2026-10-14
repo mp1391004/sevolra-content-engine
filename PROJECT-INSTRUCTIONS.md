@@ -3,7 +3,7 @@
 Chỉ sản phẩm Sevolra™ Orthopedic Cushion, thị trường Mỹ. Trao đổi tiếng Việt; text và prompt tiếng Anh Mỹ. Các quyết định hiện hành dưới đây thay cấu trúc 58s/25s và checkpoint của bản trước.
 
 ## Đầu ra hiện hành
-- Người dùng chọn page Drive/Desk, KB, caption, số lượng 1–12 và số luồng 1–4.
+- Người dùng chọn page Drive/Desk, KB, caption, số lượng 1–12 và số luồng 1–10.
 - Mỗi video đúng 30 giây, đúng 4 khung: 1 (0–7s), 2 (7–15s), 3 (15–23s), 4 (23–30s).
 - Một ảnh storyboard ghép 2×2, ghi số 1–4, timecode, text và CTA ngay trong các khung. Mọi khung là cảnh ảnh, không thẻ màu cam hoặc nền chữ trống.
 - Chỉ 2 nhân vật toàn bộ hệ thống: Mike DRIVE-01 và Alex DESK-01. Drive dùng Mike, Desk dùng Alex. Hiện portrait để nhìn rõ mặt. Giữ nguyên mặt, tóc, trang phục trong cả lô; không thêm vợ/người nhận quà hay cast thứ ba. Góc quà được kể bằng text/đạo cụ.
@@ -13,7 +13,7 @@ Chỉ sản phẩm Sevolra™ Orthopedic Cushion, thị trường Mỹ. Trao đ�
 ## Nguồn và cách dùng
 Đọc knowledge/01-PRODUCT-BIBLE.md, 02-AUDIENCE-PRINCIPLES.md, 09-STORYBOARD-FRAMEWORK.md, 10-VISUAL-BIBLE.md. data.json giữ concept/caption đã sửa; draft30 trong engine.mjs là bản chuyển 30s hiện hành. SOURCE-* chỉ để truy nguồn, không khôi phục claim, timing hay cấu trúc cũ.
 
-App chạy npm start. Runtime dùng lại kết nối GPT Image OAuth đã có của tool cũ; count và parallel được kiểm tra, tối đa 4 image job chạy trên toàn server. Ảnh lỗi hiện trạng thái thật; không gắn ảnh cũ giả làm ảnh mới. Lô và ảnh lưu generated/batches và generated/images để reload không mất kết quả. Đính official product reference + portrait của đúng page cho mọi storyboard.
+App chạy npm start. Runtime dùng lại kết nối GPT Image OAuth đã có của tool cũ; count và parallel được kiểm tra, tối đa 10 image job chạy trên toàn server. Ảnh lỗi hiện trạng thái thật; không gắn ảnh cũ giả làm ảnh mới. Lô và ảnh lưu generated/batches và generated/images để reload không mất kết quả. Đính official product reference + portrait của đúng page cho mọi storyboard.
 
 CLI: node tool.mjs KB-01 Drive CAP-0103 output.md → một package 30s. App mới tạo ảnh; CLI chỉ xuất package/prompt. npm test kiểm tra 38 package hợp lệ và worker song song.
 
@@ -42,3 +42,7 @@ Chuẩn ghế mới: dùng assets/environments/DRIVE-SEATED-SHEET-01.png làm �
 
 ## Prompt video ngắn — bản1.3
 Video được chạy thành hai lượt15s riêng, rồi ghép thành30s. Giữ một ảnh storyboard4khung. Lượt1 dùng khung1/2 với local0–7/7–15s; lượt2 dùng khung3/4 với local0–8/8–15s. Mỗi prompt tự nhắc lại ảnh tham chiếu, mặt/trang phục, sản phẩm, tỷ lệ, ghế và bối cảnh/ánh sáng. Đính kèm cùng storyboard ở cả hai lượt; ảnh cuối lượt1 nếu có chỉ bổ sung khóa mặt/ánh sáng, không thay tư thế của khung3. Không trông chờ model nhớ lượt trước. CTA duy nhất ở cuối lượt2. Giao diện có copy riêng từng đoạn và copy cả2; lưu video_clips cùng lô, kể cả các lô có sẵn. Quy định này thay yêu cầu cũ chạy một lượt30s.
+
+
+## Đa dạng trong cùng lô — bản1.4
+Caption chọn trong form là mẫu/mục tiêu. Mỗi storyboard giữ chung KB/concept, format4khung, nhân vật và sản phẩm; thay hook, text triển khai, caption và bộ hành động/cỡ khung hình. Không coi chỉ đổi ánh sáng là một biến thể. variants.mjs có12recipe/KB; mỗi lượt trong lô chọn một recipe riêng, không quay vòng ở biến thể4. Mục tiêu và CTA gốc vẫn nhất quán; caption biến thể có mã riêng và là bản nháp biên tập, không coi là caption nguồn đã duyệt. Khóa ghế1/3/4 và outside2 vẫn ưu tiên hơn yêu cầu đổi dáng. Ảnh cần nhìn khác thật, không chỉ prompt hoặc mã khác.

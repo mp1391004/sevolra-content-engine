@@ -2,8 +2,8 @@ PART 1 · 15s · storyboard 0–15s
 Render ONE 15-second vertical 9:16 video, part 1/2. Attach the SAME four-panel storyboard for this run; use ONLY panels 1 and 2 as full-screen sequential shots, never the grid.
 REFERENCE LOCK: Same Mike, tan cap, navy shirt, salt-and-pepper beard; match exact face/outfit, product and setting from the images. Same parked red left-hand-drive truck, navy driver seat, open left door; view from outside that door. Seat faces dashboard; wheel ahead, feet in footwell. warm afternoon daylight, camera anchored outside the same left driver door
 PRODUCT LOCK: Same Sevolra one-piece black/grey cushion, ribs and tailbone cutout;44×40×37cm. Fixed size/shape; seat and cushion face forward. No extra people/details.
-0–7s · panel1: Upright in the same driver seat; cushion under hips/behind lumbar, face visible. Text EXACT: "Your everyday seat. Upgraded.".
-7–15s · panel2: Outside on ground, holding shoulder-width cushion at waist. Text EXACT: "Seat + back. One piece.".
+0–7s · panel1: Upright in the same driver seat; cushion under hips/behind lumbar, face visible. hands on thighs, looking forward then toward viewer. Text EXACT: "Three seat details to check.".
+7–15s · panel2: Outside on ground, holding shoulder-width cushion at waist. holds the cushion in a SIDE three-quarter view near torso; face clear. Text EXACT: "Ribs. Cutout. Contoured seat.".
 Clean cuts, subtle movement; copy lowered readable text placement, clear of face/product. No added CTA. No grid/numbers/times, title cards, dialogue, medical claims or morphing. Exactly15.0s.
 
 PART 2 · 15s · storyboard 15–30s
@@ -11,6 +11,6 @@ Render ONE 15-second vertical 9:16 video, part 2/2. Attach the SAME four-panel s
 REFERENCE LOCK: Same Mike, tan cap, navy shirt, salt-and-pepper beard; match exact face/outfit, product and setting from the images. Same parked red left-hand-drive truck, navy driver seat, open left door; view from outside that door. Seat faces dashboard; wheel ahead, feet in footwell. warm afternoon daylight, camera anchored outside the same left driver door
 PRODUCT LOCK: Same Sevolra one-piece black/grey cushion, ribs and tailbone cutout;44×40×37cm. Fixed size/shape; seat and cushion face forward. No extra people/details.
 CONTINUITY RESET: New call, same references. From frame one, preserve face/product/setting/seat/lighting. Optional clip1 last-frame reference locks identity/lighting; panel3 defines pose.
-0–8s · panel3: Upright in the same driver seat; cushion under hips/behind lumbar, face visible. Text EXACT: "A cushion for his daily setup.".
-8–15s · panel4: Upright in the same driver seat; cushion under hips/behind lumbar, face visible. Text EXACT: "2-pack: one for the rig, one for home. Link in bio.".
+0–8s · panel3: Upright in the same driver seat; cushion under hips/behind lumbar, face visible. one relaxed hand on wheel, other hand rests on thigh. Text EXACT: "For the seat he uses daily.".
+8–15s · panel4: Upright in the same driver seat; cushion under hips/behind lumbar, face visible. open palm over his knees presenting the seat edge. Text EXACT: "2-pack: one for the rig, one for home. Link in bio.".
 Clean cuts, subtle movement; copy lowered readable text placement, clear of face/product. Hold the final CTA through15s. No grid/numbers/times, title cards, dialogue, medical claims or morphing. Exactly15.0s.

@@ -1,4 +1,4 @@
-# Sevolra Content Engine 1.3
+# Sevolra Content Engine 1.4
 
 Tạo một ảnh storyboard gồm bốn cảnh đánh số cho video 30 giây, có chữ/CTA, ảnh tải được và prompt copy được. Hai nhân vật cố định: Mike (Drive), Alex (Desk). Chọn 1–12 storyboard và 1–10 luồng, tổng tối đa 10 job hoạt động cùng lúc.
 
@@ -21,3 +21,7 @@ Training: `PROJECT-INSTRUCTIONS.md`, `knowledge/`, `SKILL.md`. Kiểm: `bun run 
 
 ## Prompt video ngắn — bản1.3
 Video được chạy thành hai lượt15s riêng, rồi ghép thành30s. Giữ một ảnh storyboard4khung. Lượt1 dùng khung1/2 với local0–7/7–15s; lượt2 dùng khung3/4 với local0–8/8–15s. Mỗi prompt tự nhắc lại ảnh tham chiếu, mặt/trang phục, sản phẩm, tỷ lệ, ghế và bối cảnh/ánh sáng. Đính kèm cùng storyboard ở cả hai lượt; ảnh cuối lượt1 nếu có chỉ bổ sung khóa mặt/ánh sáng, không thay tư thế của khung3. Không trông chờ model nhớ lượt trước. CTA duy nhất ở cuối lượt2. Giao diện có copy riêng từng đoạn và copy cả2; lưu video_clips cùng lô, kể cả các lô có sẵn. Quy định này thay yêu cầu cũ chạy một lượt30s.
+
+
+## Đa dạng trong cùng lô — bản1.4
+Caption chọn trong form là mẫu/mục tiêu. Mỗi storyboard giữ chung KB/concept, format4khung, nhân vật và sản phẩm; thay hook, text triển khai, caption và bộ hành động/cỡ khung hình. Không coi chỉ đổi ánh sáng là một biến thể. variants.mjs có12recipe/KB; mỗi lượt trong lô chọn một recipe riêng, không quay vòng ở biến thể4. Mục tiêu và CTA gốc vẫn nhất quán; caption biến thể có mã riêng và là bản nháp biên tập, không coi là caption nguồn đã duyệt. Khóa ghế1/3/4 và outside2 vẫn ưu tiên hơn yêu cầu đổi dáng. Ảnh cần nhìn khác thật, không chỉ prompt hoặc mã khác.

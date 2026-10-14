@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "summary": "Bốn khung đáp ứng bố cục Drive: đúng vị trí tài xế/người đứng ngoài, hướng và tỷ lệ đệm nhất quán, mặt rõ, chữ đúng và đặt thấp. Tư thế tay phù hợp từng cảnh.",
+  "panels": [
+    {
+      "number": 1,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Ngồi trên ghế lái, hai tay trên đùi; vô-lăng phía trước, chân trong khoang lái. Đệm hướng về bảng điều khiển, phần lưng áp tựa ghế bên phải ảnh; mép ghế xanh còn thấy. Chữ và nhãn 1, 0–7s đúng.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 2,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Thân người ở ngoài cửa; nền đường, thân xe đỏ và bậc lên cabin xác lập vị trí bên ngoài dù chân bị cắt khỏi khung. Đệm cầm sát thân ngang eo, hơi nghiêng để thấy hông, rộng xấp xỉ vai. Chữ nằm dưới sản phẩm; nhãn 2, 7–15s đúng.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 3,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Một tay trên vô-lăng, tay còn lại trên đùi; hông trên đệm, chân trong khoang lái. Hướng đệm, độ dày đế và vị trí phần lưng nhất quán với khung 1/4. Chữ thấp, rõ, không che sản phẩm hoặc mặt; nhãn 3, 15–23s đúng.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 4,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Giữ nguyên ghế lái và hướng cabin, bàn tay mở trên đầu gối giới thiệu mép đệm. Đế hướng về vô-lăng, phần lưng sát tựa ghế; tỷ lệ và mép xanh tương đồng khung 1/3. CTA đầy đủ, không cắt chữ; nhãn 4, 23–30s đúng.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    }
+  ],
+  "review_file": "generated/reviews/distinct-v7-2-1791985635467.json",
+  "checked_at": "2026-10-14T13:47:47.846Z"
+}

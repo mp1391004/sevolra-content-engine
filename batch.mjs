@@ -7,3 +7,8 @@ export function validateBatch(input){
  if(typeof input.kb!=='string'||typeof input.cap!=='string')throw Error('Chọn kịch bản và caption.');
  return {count,parallel,page:input.page,kb:input.kb,cap:input.cap};
 }
+export function assertBatchVariety(jobs){
+ for(const [label,get] of [['caption',j=>j.story.caption],['hook',j=>j.story.frames[0].text],['visual recipe',j=>j.story.variant?.visual_signature]]){
+  const values=jobs.map(get);if(values.some(v=>!v)||new Set(values).size!==jobs.length)throw Error('Lô bị trùng '+label+'. Chưa chạy ảnh; cần đổi biến thể.');
+ }
+}
