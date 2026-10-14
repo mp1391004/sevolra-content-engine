@@ -1,0 +1,52 @@
+{
+  "status": "fail",
+  "summary": "Bố trí người và hướng đệm phù hợp; tỷ lệ đệm nhất quán về mặt thị giác. Cần chỉnh vị trí chữ ở panel 2, 3 và 4 để đúng vùng yêu cầu và tránh che sản phẩm.",
+  "panels": [
+    {
+      "number": 1,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người ngồi đúng ghế lái, chân trong khoang để chân, vô-lăng phía trước. Đệm hướng về dashboard bên trái, phần lưng áp vào tựa ghế bên phải; thấy viền ghế xanh. Chữ đúng, nằm khoảng 70–82% chiều cao panel. Số và thời gian đúng.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 2,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Thân người ở ngoài cửa xe; mặt đất, thân xe đỏ và bậc lên xuống xác lập vị trí bên ngoài dù bàn chân bị cắt khỏi ảnh. Đệm cầm ngang eo, gần mặt phẳng thân người, rộng xấp xỉ vai. Chữ đúng nhưng dải nền chữ đè lên mép dưới đệm và kéo xuống khoảng 84% chiều cao panel. Dời chữ vào vùng 68–82% và bố trí khoảng trống để không che đệm. Số và thời gian đúng.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": false
+    },
+    {
+      "number": 3,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người ngồi trên đệm ở ghế lái, vô-lăng phía trước và chân trong khoang lái. Đệm cùng hướng, độ dày và vị trí tựa sau với panel 1 và 4. Chữ đúng nhưng nằm khoảng 43–49% chiều cao panel, cao hơn vùng yêu cầu; hạ toàn bộ dải chữ vào vùng 48–62%. Số và thời gian đúng.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": false
+    },
+    {
+      "number": 4,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Cùng ghế lái và hình học nhìn nghiêng như panel 3. Đệm nằm dọc ghế, đầu trước hướng về vô-lăng, phần sau sát tựa ghế; tỷ lệ và viền ghế xanh nhất quán. CTA đúng nhưng dải chữ nằm khoảng 74–86% chiều cao panel, vượt mốc 82%; nâng lên để toàn bộ CTA nằm trong vùng 48–82%. Số và thời gian đúng.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": false
+    }
+  ],
+  "review_file": "generated/reviews/seated-v5-1-1791982470853.json",
+  "checked_at": "2026-10-14T12:55:31.125Z"
+}

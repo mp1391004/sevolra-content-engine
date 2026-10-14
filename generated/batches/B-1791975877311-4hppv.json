@@ -1,0 +1,85 @@
+{
+  "id": "B-1791975877311-4hppv",
+  "count": 1,
+  "parallel": 1,
+  "page": "Desk",
+  "kb": "KB-03",
+  "cap": "CAP-0303",
+  "status": "done",
+  "active": 0,
+  "peak_active": 1,
+  "created_at": "2026-10-14T11:04:37.311Z",
+  "jobs": [
+    {
+      "id": "B-1791975877311-4hppv-1",
+      "index": 1,
+      "status": "done",
+      "story": {
+        "kb": "KB-03",
+        "page": "Desk",
+        "cap": "CAP-0303",
+        "goal": "chuyển đổi",
+        "cta": "Link in bio.",
+        "duration": 30,
+        "character": {
+          "id": "DESK-01",
+          "name": "Alex · Desk",
+          "image": "assets/characters/DESK-01.png",
+          "description": "the exact 32-year-old male office worker in the attached DESK-01 portrait, wavy dark brown hair, neat stubble, grey T-shirt, unobstructed face"
+        },
+        "variation": 0,
+        "frames": [
+          {
+            "number": 1,
+            "start": 0,
+            "end": 7,
+            "text": "Seat + Back Support In One?!",
+            "action": "Presenter standing beside the mesh office chair with exact cushion, full face visible.",
+            "cta": false,
+            "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+          },
+          {
+            "number": 2,
+            "start": 7,
+            "end": 15,
+            "text": "One-piece seat + lumbar.",
+            "action": "Same presenter holds cushion at waist height, its ribs and cutout visible; no squeezing.",
+            "cta": false,
+            "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+          },
+          {
+            "number": 3,
+            "start": 15,
+            "end": 23,
+            "text": "Removable, washable cover.",
+            "action": "Same presenter sitting at desk with exact cushion, natural posture and visible face; no invented cover removal.",
+            "cta": false,
+            "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+          },
+          {
+            "number": 4,
+            "start": 23,
+            "end": 30,
+            "text": "Link in bio.",
+            "action": "Same presenter next to the same chair with cushion, relaxed face toward camera.",
+            "cta": true,
+            "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+          }
+        ],
+        "caption": "Refresh your seat setup for $64.95.\nSeat + lumbar support in one piece. Removable, washable cover.\nLink in bio.",
+        "hashtags": "#wfh #deskjob #officechair #desksetup #seatcushion",
+        "storyboard_prompt": "Create ONE finished storyboard IMAGE for ONE 30-second vertical video. Exactly FOUR photographic panels in a 2-column by 2-row grid, reading left-to-right then top-to-bottom. No empty panels, no chapter cards, no orange blocks. Label each panel visibly 1, 2, 3, 4 at upper left, with its time interval. Each panel shows a real scene plus the EXACT text below, not just a text card. Include only ONE character throughout: the exact 32-year-old male office worker in the attached DESK-01 portrait, wavy dark brown hair, neat stubble, grey T-shirt, unobstructed face; match the attached face reference exactly. Show the character's unobstructed face in all four panels. Setting: a bright WFH room, pale oak desk and black mesh office chair. Variation: front three-quarter camera, soft morning daylight. Product: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads; use attached official product reference, preserve its silhouette and materials.\n\nPANEL 1, 0–7s: Presenter standing beside the mesh office chair with exact cushion, full face visible.\nVisible on-screen text (verbatim): \"Seat + Back Support In One?!\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 2, 7–15s: Same presenter holds cushion at waist height, its ribs and cutout visible; no squeezing.\nVisible on-screen text (verbatim): \"One-piece seat + lumbar.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 3, 15–23s: Same presenter sitting at desk with exact cushion, natural posture and visible face; no invented cover removal.\nVisible on-screen text (verbatim): \"Removable, washable cover.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 4, 23–30s: Same presenter next to the same chair with cushion, relaxed face toward camera.\nVisible on-screen text (verbatim): \"Link in bio.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPhotorealistic UGC, ordinary natural expression and skin, same face, same clothes, same setting throughout. Every panel must contain a visible photographic scene. Text is part of this finished storyboard and must be readable, correctly spelled, and not cover the face, lumbar ribs or cutout. No wife, gift recipient, extra cast, extra hands, medical spine glow, invented accessories, fake endorsements, treatment before/after, invented underside or removed-cover proof. The panel numbers and timings are guide annotations, not final video text. Total timeline is exactly 30 seconds.",
+        "video_prompt": "Create ONE complete 30-second vertical 9:16 product-demo video (1080×1920, 30fps) from the attached FOUR-panel Sevolra storyboard. Use the sheet as a shot guide; do NOT animate the whole grid or show the four panels simultaneously. Read panels 1→2→3→4 in order, and render each as a full-screen sequential shot.\n\nIDENTITY: the exact 32-year-old male office worker in the attached DESK-01 portrait, wavy dark brown hair, neat stubble, grey T-shirt, unobstructed face. Only this character; keep the same unobstructed face and outfit throughout.\nPRODUCT: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads. Preserve attached official reference exactly.\nSETTING: a bright WFH room, pale oak desk and black mesh office chair. front three-quarter camera, soft morning daylight. Keep the same desk and chair throughout.\n\nEXACT 30-SECOND TIMELINE:\n0.0–7.0 seconds — PANEL 1: Presenter standing beside the mesh office chair with exact cushion, full face visible. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Seat + Back Support In One?!\". Match readable text placement in the reference panel; do not obscure face or cushion.\n7.0–15.0 seconds — PANEL 2: Same presenter holds cushion at waist height, its ribs and cutout visible; no squeezing. One simple action or gentle camera push-in only. On-screen text, verbatim: \"One-piece seat + lumbar.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n15.0–23.0 seconds — PANEL 3: Same presenter sitting at desk with exact cushion, natural posture and visible face; no invented cover removal. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Removable, washable cover.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n23.0–30.0 seconds — PANEL 4: Same presenter next to the same chair with cushion, relaxed face toward camera. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Link in bio.\". CTA stays visible through the final second.\n\nUse clean cuts between shots. No orange chapter cards, blank title screens, contact-sheet grid, panel numbers or timestamps in the final video. Keep exact English text as specified; final shot has ONE CTA: \"Link in bio.\". No extra CTA, medical claims, invented testimonial, deep foam compression, fake product details, split cushions, extra characters or face changes. Ambient sound only; no dialogue or simulated customer review. Duration exactly 30.0 seconds; no loop beyond 30 seconds. If the selected renderer cannot output 30 seconds in one call, retain this single master prompt/timeline and render compatible clips for assembly; do not label a shorter clip as a 30-second video.",
+        "status": "DRAFT",
+        "reference": "assets/product/SEVOLRA-01.png"
+      },
+      "started_at": "2026-10-14T11:04:37.312Z",
+      "image_url": "/generated/images/B-1791975877311-4hppv-1-v2.png",
+      "image_bytes": 2353553,
+      "finished_at": "2026-10-14T11:06:29.314Z",
+      "original_image_url": "/generated/images/B-1791975877311-4hppv-1.png",
+      "qa_note": "Edited labels in panels 2 and 3 to reveal complete face; retained four panels, all text and CTA."
+    }
+  ],
+  "finished_at": "2026-10-14T11:06:29.315Z"
+}

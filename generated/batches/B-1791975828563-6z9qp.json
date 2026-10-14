@@ -1,0 +1,1097 @@
+{
+  "id": "B-1791975828563-6z9qp",
+  "count": 2,
+  "parallel": 2,
+  "page": "Drive",
+  "kb": "KB-01",
+  "cap": "CAP-0103",
+  "status": "done",
+  "active": 0,
+  "peak_active": 2,
+  "created_at": "2026-10-14T11:03:48.563Z",
+  "jobs": [
+    {
+      "id": "B-1791975828563-6z9qp-1",
+      "index": 1,
+      "status": "done",
+      "story": {
+        "layout": {
+          "id": "US-LEFT-HAND-DRIVE-01",
+          "reference": "assets/environments/DRIVE-SEATED-SHEET-01.png",
+          "driver_seat": "front-left",
+          "passenger_seat": "front-right",
+          "steering_wheel": "dashboard directly ahead of front-left driver seat",
+          "product_dimensions_cm": {
+            "width": 44,
+            "depth": 40,
+            "height": 37
+          },
+          "staging_seat_cm": {
+            "width": 55,
+            "depth": 50
+          },
+          "product_to_seat_ratio": {
+            "width": 0.8,
+            "depth": 0.8
+          },
+          "product_axis": "same longitudinal axis as driver seat; front toward dashboard, rear lumbar against seat backrest",
+          "camera": "outside the open front-left driver door, on asphalt; look diagonally forward into the front cab",
+          "rules": "PRODUCT DIRECTION AND SCALE LOCK: product44cm wide x40cm deep x37cm high, never changes physical size. This staging uses the same55cm wide x50cm deep driver seat as ruler: cushion width80% and depth80% of that seat, visible blue fabric margins. These are staging dimensions, not a manufacturer claim about every truck. Installed cushion lumbar REAR sits flush against original blue seat BACKREST (vehicle REAR, image RIGHT in the outside-left-door view); its FRONT thigh lobes point toward dashboard/steering wheel (vehicle FRONT, image LEFT). Its longitudinal axis is parallel to the driver seat, NEVER perpendicular and NEVER toward the open door/camera. Use the approved seated storyboard reference as the geometry guide; panels1/3/4 use the same upright occupied driver seat as its panel3 side/oblique view. No empty-seat product display scenes. Do not rotate the product for a frontal beauty view. Seated-driver panels1/3/4 share identical seat-plane footprint, rear contact, front edge and side margins after accounting for perspective/occlusion. No growth in width, depth, thickness or lumbar height when occupied. Lumbar top reaches lower back below shoulder blades, not headrest. Held cushion panel2 remains44cm wide, roughly presenter shoulder width, at waist in the torso plane, not closer to lens to appear huge. LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames."
+        },
+        "kb": "KB-01",
+        "page": "Drive",
+        "cap": "CAP-0103",
+        "goal": "chuyển đổi",
+        "cta": "2-pack: one for the rig, one for home. Link in bio.",
+        "duration": 30,
+        "character": {
+          "id": "DRIVE-01",
+          "name": "Mike · Drive",
+          "image": "assets/characters/DRIVE-01.png",
+          "description": "the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face"
+        },
+        "variation": 0,
+        "frames": [
+          {
+            "person_position": "seated_driver",
+            "product_position": "installed_driver_seat",
+            "product_axis": "seat_forward",
+            "product_scale": "44x40x37cm-fixed",
+            "camera_position": "outside_left_driver_door",
+            "action": "NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. He looks toward viewer naturally with hands resting on the wheel.",
+            "feature": "Your everyday seat. Upgraded.",
+            "number": 1,
+            "start": 0,
+            "end": 7,
+            "text": "Your everyday seat. Upgraded.",
+            "cta": false,
+            "overlay": "Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines."
+          },
+          {
+            "person_position": "outside_ground",
+            "product_position": "held_outside",
+            "product_axis": "held_front_view",
+            "product_scale": "44x40x37cm-fixed",
+            "camera_position": "outside_left_driver_door",
+            "action": "Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, both shoes grounded. He holds the exact44cm-wide Sevolra cushion at waist height in the torso plane, about his shoulder width, NOT closer to lens and NOT oversized, with his face above it. The door frame and raised entry steps distinguish the outside from the cab. Do not show him standing in the cabin or between seats.",
+            "feature": "Seat + back. One piece.",
+            "number": 2,
+            "start": 7,
+            "end": 15,
+            "text": "Seat + back. One piece.",
+            "cta": false,
+            "overlay": "Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines."
+          },
+          {
+            "person_position": "seated_driver",
+            "product_position": "installed_driver_seat",
+            "product_axis": "seat_forward",
+            "product_scale": "44x40x37cm-fixed",
+            "camera_position": "outside_left_driver_door",
+            "action": "NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab.",
+            "feature": "A cushion for his daily setup.",
+            "number": 3,
+            "start": 15,
+            "end": 23,
+            "text": "A cushion for his daily setup.",
+            "cta": false,
+            "overlay": "Headline lower than top quarter,48–62% of panel height, on clear plain-shirt/background below face and above cushion/thighs. Avoid face, hands, wheel and product. White bold type on dark translucent box,8% side insets, max3 lines."
+          },
+          {
+            "person_position": "seated_driver",
+            "product_position": "installed_driver_seat",
+            "product_axis": "seat_forward",
+            "product_scale": "44x40x37cm-fixed",
+            "camera_position": "outside_left_driver_door",
+            "action": "NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. Keep him seated forward; one hand makes a small gesture toward the seat base for the CTA, no torso twist or seat movement.",
+            "feature": "A practical gift.",
+            "number": 4,
+            "start": 23,
+            "end": 30,
+            "text": "2-pack: one for the rig, one for home. Link in bio.",
+            "cta": true,
+            "overlay": "Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines."
+          }
+        ],
+        "caption": "For the driver who already has enough mugs. 🎁\nSeat + lumbar support in one piece.\n2-pack: one for the rig, one for home. Link in bio.",
+        "hashtags": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport",
+        "storyboard_prompt": "Create ONE finished storyboard IMAGE for ONE 30-second vertical video. Exactly FOUR photographic panels in a 2-column by 2-row grid, reading left-to-right then top-to-bottom. No empty panels, no chapter cards, no orange blocks. Label each panel visibly 1, 2, 3, 4 at upper left, with its time interval. Each panel shows a real scene plus the EXACT text below, not just a text card. Include only ONE character throughout: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face; match the attached face reference exactly. Show the character's unobstructed face in all four panels. Keep the entire head, forehead and both eyes clear. Do NOT put headline boxes in the top25% of panels. Reserve lower-middle negative space for the readable captions per panel. Numbers/timings alone remain at top left. Never place text over a face or product. Setting: the same red parked American left-hand-drive truck, open front-left driver door, navy fabric front-left driver seat; presenter seated upright and forward on the SAME driver seat in panels1/3/4; only panel2 is outside holding the cushion. Variation: soft morning daylight, camera anchored outside the left driver door. Product: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads; use attached official product reference, preserve its silhouette and materials.\n\nMANDATORY PHYSICAL LAYOUT: PRODUCT DIRECTION AND SCALE LOCK: product44cm wide x40cm deep x37cm high, never changes physical size. This staging uses the same55cm wide x50cm deep driver seat as ruler: cushion width80% and depth80% of that seat, visible blue fabric margins. These are staging dimensions, not a manufacturer claim about every truck. Installed cushion lumbar REAR sits flush against original blue seat BACKREST (vehicle REAR, image RIGHT in the outside-left-door view); its FRONT thigh lobes point toward dashboard/steering wheel (vehicle FRONT, image LEFT). Its longitudinal axis is parallel to the driver seat, NEVER perpendicular and NEVER toward the open door/camera. Use the approved seated storyboard reference as the geometry guide; panels1/3/4 use the same upright occupied driver seat as its panel3 side/oblique view. No empty-seat product display scenes. Do not rotate the product for a frontal beauty view. Seated-driver panels1/3/4 share identical seat-plane footprint, rear contact, front edge and side margins after accounting for perspective/occlusion. No growth in width, depth, thickness or lumbar height when occupied. Lumbar top reaches lower back below shoulder blades, not headrest. Held cushion panel2 remains44cm wide, roughly presenter shoulder width, at waist in the torso plane, not closer to lens to appear huge. LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames.\nCamera anchor: outside the open front-left driver door, on asphalt; look diagonally forward into the front cab\n\nPANEL 1, 0–7s: NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. He looks toward viewer naturally with hands resting on the wheel.\nVisible on-screen text (verbatim): \"Your everyday seat. Upgraded.\". Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines.\n\nPANEL 2, 7–15s: Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, both shoes grounded. He holds the exact44cm-wide Sevolra cushion at waist height in the torso plane, about his shoulder width, NOT closer to lens and NOT oversized, with his face above it. The door frame and raised entry steps distinguish the outside from the cab. Do not show him standing in the cabin or between seats.\nVisible on-screen text (verbatim): \"Seat + back. One piece.\". Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines.\n\nPANEL 3, 15–23s: NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab.\nVisible on-screen text (verbatim): \"A cushion for his daily setup.\". Headline lower than top quarter,48–62% of panel height, on clear plain-shirt/background below face and above cushion/thighs. Avoid face, hands, wheel and product. White bold type on dark translucent box,8% side insets, max3 lines.\n\nPANEL 4, 23–30s: NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. Keep him seated forward; one hand makes a small gesture toward the seat base for the CTA, no torso twist or seat movement.\nVisible on-screen text (verbatim): \"2-pack: one for the rig, one for home. Link in bio.\". Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines.\n\nPhotorealistic UGC, ordinary natural expression and skin, same face, same clothes, same setting throughout. Every panel must contain a visible photographic scene. Text is part of this finished storyboard and must be readable, correctly spelled, and not cover the face, lumbar ribs or cutout. No wife, gift recipient, extra cast, extra hands, medical spine glow, invented accessories, fake endorsements, treatment before/after, invented underside or removed-cover proof. The panel numbers and timings are guide annotations, not final video text. Total timeline is exactly 30 seconds.",
+        "video_prompt": "Create ONE complete 30-second vertical 9:16 product-demo video (1080×1920, 30fps) from the attached FOUR-panel Sevolra storyboard. Use the sheet as a shot guide; do NOT animate the whole grid or show the four panels simultaneously. Read panels 1→2→3→4 in order, and render each as a full-screen sequential shot.\n\nIDENTITY: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face. Only this character; keep the same unobstructed face and outfit throughout.\nPRODUCT: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads. Preserve attached official reference exactly.\nSETTING: the same red parked American left-hand-drive truck, open front-left driver door, navy fabric front-left driver seat; presenter seated upright and forward on the SAME driver seat in panels1/3/4; only panel2 is outside holding the cushion. soft morning daylight, camera anchored outside the left driver door. Truck remains parked.\n\nMANDATORY PHYSICAL LAYOUT: PRODUCT DIRECTION AND SCALE LOCK: product44cm wide x40cm deep x37cm high, never changes physical size. This staging uses the same55cm wide x50cm deep driver seat as ruler: cushion width80% and depth80% of that seat, visible blue fabric margins. These are staging dimensions, not a manufacturer claim about every truck. Installed cushion lumbar REAR sits flush against original blue seat BACKREST (vehicle REAR, image RIGHT in the outside-left-door view); its FRONT thigh lobes point toward dashboard/steering wheel (vehicle FRONT, image LEFT). Its longitudinal axis is parallel to the driver seat, NEVER perpendicular and NEVER toward the open door/camera. Use the approved seated storyboard reference as the geometry guide; panels1/3/4 use the same upright occupied driver seat as its panel3 side/oblique view. No empty-seat product display scenes. Do not rotate the product for a frontal beauty view. Seated-driver panels1/3/4 share identical seat-plane footprint, rear contact, front edge and side margins after accounting for perspective/occlusion. No growth in width, depth, thickness or lumbar height when occupied. Lumbar top reaches lower back below shoulder blades, not headrest. Held cushion panel2 remains44cm wide, roughly presenter shoulder width, at waist in the torso plane, not closer to lens to appear huge. LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames.\nCamera anchor: outside the open front-left driver door, on asphalt; look diagonally forward into the front cab\n\nEXACT 30-SECOND TIMELINE:\n0.0–7.0 seconds — PANEL 1: NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. He looks toward viewer naturally with hands resting on the wheel. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Your everyday seat. Upgraded.\". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.\n7.0–15.0 seconds — PANEL 2: Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, both shoes grounded. He holds the exact44cm-wide Sevolra cushion at waist height in the torso plane, about his shoulder width, NOT closer to lens and NOT oversized, with his face above it. The door frame and raised entry steps distinguish the outside from the cab. Do not show him standing in the cabin or between seats. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Seat + back. One piece.\". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.\n15.0–23.0 seconds — PANEL 3: NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. One simple action or gentle camera push-in only. On-screen text, verbatim: \"A cushion for his daily setup.\". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.\n23.0–30.0 seconds — PANEL 4: NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. Keep him seated forward; one hand makes a small gesture toward the seat base for the CTA, no torso twist or seat movement. One simple action or gentle camera push-in only. On-screen text, verbatim: \"2-pack: one for the rig, one for home. Link in bio.\". CTA matches the reference caption zone, lower48–82% according to available clear space of frame height; stays visible through the final second, below face and clear of product.\n\nUse clean cuts between shots. No orange chapter cards, blank title screens, contact-sheet grid, panel numbers or timestamps in the final video. Keep exact English text as specified; final shot has ONE CTA: \"2-pack: one for the rig, one for home. Link in bio.\". No extra CTA, medical claims, invented testimonial, deep foam compression, fake product details, split cushions, extra characters or face changes. Ambient sound only; no dialogue or simulated customer review. Duration exactly 30.0 seconds; no loop beyond 30 seconds. If the selected renderer cannot output 30 seconds in one call, retain this single master prompt/timeline and render compatible clips for assembly; do not label a shorter clip as a 30-second video.",
+        "status": "DRAFT",
+        "reference": "assets/product/SEVOLRA-01.png"
+      },
+      "started_at": "2026-10-14T11:03:48.564Z",
+      "image_url": "/generated/images/B-1791975828563-6z9qp-1-seated-v6.png",
+      "image_bytes": 2303893,
+      "finished_at": "2026-10-14T11:04:58.252Z",
+      "qa_note": "Đã sửa logic người/ghế/vô-lăng và kiểm tra từng khung.",
+      "previous_image_url": "/generated/images/B-1791975828563-6z9qp-1.png",
+      "previous_story": {
+        "kb": "KB-01",
+        "page": "Drive",
+        "cap": "CAP-0103",
+        "goal": "chuyển đổi",
+        "cta": "2-pack: one for the rig, one for home. Link in bio.",
+        "duration": 30,
+        "character": {
+          "id": "DRIVE-01",
+          "name": "Mike · Drive",
+          "image": "assets/characters/DRIVE-01.png",
+          "description": "the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face"
+        },
+        "variation": 0,
+        "frames": [
+          {
+            "number": 1,
+            "start": 0,
+            "end": 7,
+            "text": "Your everyday seat. Upgraded.",
+            "action": "Presenter beside the seat, face clearly visible; holds one ordinary mug, then looks at the cushion.",
+            "cta": false,
+            "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+          },
+          {
+            "number": 2,
+            "start": 7,
+            "end": 15,
+            "text": "Seat + back. One piece.",
+            "action": "Same presenter shows exact cushion at waist height; face and whole integrated cushion visible.",
+            "cta": false,
+            "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+          },
+          {
+            "number": 3,
+            "start": 15,
+            "end": 23,
+            "text": "A cushion for his daily setup.",
+            "action": "Same presenter sitting naturally on the cushion in the matching chair, face in three-quarter view.",
+            "cta": false,
+            "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+          },
+          {
+            "number": 4,
+            "start": 23,
+            "end": 30,
+            "text": "2-pack: one for the rig, one for home. Link in bio.",
+            "action": "Same presenter beside the cushion on the matching seat, face clearly visible.",
+            "cta": true,
+            "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+          }
+        ],
+        "caption": "For the driver who already has enough mugs. 🎁\nSeat + lumbar support in one piece.\n2-pack: one for the rig, one for home. Link in bio.",
+        "hashtags": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport",
+        "storyboard_prompt": "Create ONE finished storyboard IMAGE for ONE 30-second vertical video. Exactly FOUR photographic panels in a 2-column by 2-row grid, reading left-to-right then top-to-bottom. No empty panels, no chapter cards, no orange blocks. Label each panel visibly 1, 2, 3, 4 at upper left, with its time interval. Each panel shows a real scene plus the EXACT text below, not just a text card. Include only ONE character throughout: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face; match the attached face reference exactly. Show the character's unobstructed face in all four panels. Setting: a parked truck cabin and open cab door, navy fabric truck seat. Variation: front three-quarter camera, soft morning daylight. Product: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads; use attached official product reference, preserve its silhouette and materials.\n\nPANEL 1, 0–7s: Presenter beside the seat, face clearly visible; holds one ordinary mug, then looks at the cushion.\nVisible on-screen text (verbatim): \"Your everyday seat. Upgraded.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 2, 7–15s: Same presenter shows exact cushion at waist height; face and whole integrated cushion visible.\nVisible on-screen text (verbatim): \"Seat + back. One piece.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 3, 15–23s: Same presenter sitting naturally on the cushion in the matching chair, face in three-quarter view.\nVisible on-screen text (verbatim): \"A cushion for his daily setup.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 4, 23–30s: Same presenter beside the cushion on the matching seat, face clearly visible.\nVisible on-screen text (verbatim): \"2-pack: one for the rig, one for home. Link in bio.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPhotorealistic UGC, ordinary natural expression and skin, same face, same clothes, same setting throughout. Every panel must contain a visible photographic scene. Text is part of this finished storyboard and must be readable, correctly spelled, and not cover the face, lumbar ribs or cutout. No wife, gift recipient, extra cast, extra hands, medical spine glow, invented accessories, fake endorsements, treatment before/after, invented underside or removed-cover proof. The panel numbers and timings are guide annotations, not final video text. Total timeline is exactly 30 seconds.",
+        "video_prompt": "Create ONE complete 30-second vertical 9:16 product-demo video (1080×1920, 30fps) from the attached FOUR-panel Sevolra storyboard. Use the sheet as a shot guide; do NOT animate the whole grid or show the four panels simultaneously. Read panels 1→2→3→4 in order, and render each as a full-screen sequential shot.\n\nIDENTITY: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face. Only this character; keep the same unobstructed face and outfit throughout.\nPRODUCT: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads. Preserve attached official reference exactly.\nSETTING: a parked truck cabin and open cab door, navy fabric truck seat. front three-quarter camera, soft morning daylight. Truck remains parked.\n\nEXACT 30-SECOND TIMELINE:\n0.0–7.0 seconds — PANEL 1: Presenter beside the seat, face clearly visible; holds one ordinary mug, then looks at the cushion. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Your everyday seat. Upgraded.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n7.0–15.0 seconds — PANEL 2: Same presenter shows exact cushion at waist height; face and whole integrated cushion visible. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Seat + back. One piece.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n15.0–23.0 seconds — PANEL 3: Same presenter sitting naturally on the cushion in the matching chair, face in three-quarter view. One simple action or gentle camera push-in only. On-screen text, verbatim: \"A cushion for his daily setup.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n23.0–30.0 seconds — PANEL 4: Same presenter beside the cushion on the matching seat, face clearly visible. One simple action or gentle camera push-in only. On-screen text, verbatim: \"2-pack: one for the rig, one for home. Link in bio.\". CTA stays visible through the final second.\n\nUse clean cuts between shots. No orange chapter cards, blank title screens, contact-sheet grid, panel numbers or timestamps in the final video. Keep exact English text as specified; final shot has ONE CTA: \"2-pack: one for the rig, one for home. Link in bio.\". No extra CTA, medical claims, invented testimonial, deep foam compression, fake product details, split cushions, extra characters or face changes. Ambient sound only; no dialogue or simulated customer review. Duration exactly 30.0 seconds; no loop beyond 30 seconds. If the selected renderer cannot output 30 seconds in one call, retain this single master prompt/timeline and render compatible clips for assembly; do not label a shorter clip as a 30-second video.",
+        "status": "DRAFT",
+        "reference": "assets/product/SEVOLRA-01.png"
+      },
+      "initial_qa": {
+        "status": "fail",
+        "summary": "Cả bốn khung có mặt rõ, đúng số, thời gian và nội dung chữ. Tuy nhiên, khung 1, 2, 4 đặt người trong cabin thay vì đứng ngoài xe trên mặt đường. Khung 3 cho thấy tư thế lái nhưng chưa đủ bằng chứng xác nhận toàn bộ hình học cabin và vị trí chân.",
+        "panels": [
+          {
+            "number": 1,
+            "person_position": "ambiguous",
+            "layout_ok": false,
+            "face_visible": true,
+            "text_ok": true,
+            "reason": "Người ở trong cabin, cạnh ghế trống đặt đệm; phần đùi hiện rõ nhưng không xác định được ghế đang ngồi. Không thấy hai chân trên asphalt, cửa mở và bậc lên xuống để chứng minh đứng ngoài xe. Cần chuyển toàn bộ người ra ngoài cửa lái và thể hiện đệm trên ghế lái hướng về vô lăng."
+          },
+          {
+            "number": 2,
+            "person_position": "ambiguous",
+            "layout_ok": false,
+            "face_visible": true,
+            "text_ok": true,
+            "reason": "Người cầm đệm trong cabin, đùi xuất hiện ở đáy khung; không xác định được chỗ ngồi. Không có bằng chứng đứng ngoài xe trên mặt đường, thiếu cửa mở và bậc lên xuống. Cần đưa người cùng đệm ra ngoài cửa lái, thấy cả hai chân trên asphalt."
+          },
+          {
+            "number": 3,
+            "person_position": "seated_driver",
+            "layout_ok": false,
+            "face_visible": true,
+            "text_ok": true,
+            "reason": "Thấy hông trên phần ngồi của đệm, phần tựa sau lưng và vô lăng phía trước. Tuy nhiên, chân và khoang chân bị cắt, không thấy đủ dashboard, cửa lái và ghế hành khách để xác nhận ghế trước bên trái cùng cấu hình đúng hai ghế. Cần mở rộng góc chụp để xác minh các điểm này; bố cục chưa thể xác nhận đạt."
+          },
+          {
+            "number": 4,
+            "person_position": "ambiguous",
+            "layout_ok": false,
+            "face_visible": true,
+            "text_ok": true,
+            "reason": "Người nằm trong không gian cabin bên cạnh ghế trống đặt đệm; phần thân dưới bị cắt nên không rõ đang ngồi hay đứng. Không thấy mặt đường, hai chân ngoài xe, cửa mở hoặc bậc lên xuống. Cần đưa toàn bộ người ra ngoài cửa lái và thể hiện rõ ghế đặt đệm là ghế lái với vô lăng phía trước."
+          }
+        ]
+      },
+      "qa": {
+        "status": "pass",
+        "summary": "Bốn khung đáp ứng bố cục Drive theo bằng chứng nhìn thấy. Đệm lắp hướng về vô-lăng, tỷ lệ nhất quán giữa các cảnh ngồi; người cầm đệm ở ngoài xe. Chữ đúng, đặt thấp và không che mặt.",
+        "panels": [
+          {
+            "number": 1,
+            "person_position": "seated_driver",
+            "layout_ok": true,
+            "face_visible": true,
+            "text_ok": true,
+            "reason": "Người ngồi trên đệm ở ghế lái sát cửa, chân trong khoang để chân, vô-lăng phía trước. Phần đệm trước hướng về bảng điều khiển bên trái ảnh; phần lưng áp theo tựa ghế bên phải. Đế xám và mép ghế xanh có tỷ lệ phù hợp với khung 3/4. Chữ và nhãn 1, 0–7s đúng, không che mặt.",
+            "product_orientation_ok": true,
+            "product_scale_ok": true,
+            "text_placement_ok": true
+          },
+          {
+            "number": 2,
+            "person_position": "outside_ground",
+            "layout_ok": true,
+            "face_visible": true,
+            "text_ok": true,
+            "reason": "Thân người ở ngoài khung cửa, phía trước bậc lên xuống nâng cao; mặt đường và thân xe đỏ xác lập vị trí ngoài xe dù bàn chân ngoài khung hình. Đệm cầm ngang eo, gần mặt phẳng thân người, rộng xấp xỉ vai. Chữ nằm dưới sản phẩm; nhãn 2, 7–15s và nội dung đúng.",
+            "product_orientation_ok": true,
+            "product_scale_ok": true,
+            "text_placement_ok": true
+          },
+          {
+            "number": 3,
+            "person_position": "seated_driver",
+            "layout_ok": true,
+            "face_visible": true,
+            "text_ok": true,
+            "reason": "Ngồi đúng ghế lái với hông trên đệm, vô-lăng phía trước và chân trong khoang lái. Đệm chạy dọc mặt ghế, phần lưng phía tựa ghế; độ dày đế và mép xanh nhất quán với khung 1/4. Chữ ở khoảng giữa thấp, không che mặt hoặc phần đệm nhìn thấy; nhãn 3, 15–23s đúng.",
+            "product_orientation_ok": true,
+            "product_scale_ok": true,
+            "text_placement_ok": true
+          },
+          {
+            "number": 4,
+            "person_position": "seated_driver",
+            "layout_ok": true,
+            "face_visible": true,
+            "text_ok": true,
+            "reason": "Giữ cùng hướng ghế lái và vị trí ngồi như khung 1/3. Đệm trước hướng về vô-lăng, phần lưng sát tựa ghế; đế xám, vị trí phía sau và mép ghế xanh không cho thấy thay đổi kích thước. CTA đặt thấp, đọc đủ, không che mặt hoặc sản phẩm; nhãn 4, 23–30s đúng.",
+            "product_orientation_ok": true,
+            "product_scale_ok": true,
+            "text_placement_ok": true
+          }
+        ],
+        "review_file": "generated/reviews/seated-v6-1-1791982759398.json",
+        "checked_at": "2026-10-14T12:59:50.852Z"
+      },
+      "repaired_at": "2026-10-14T12:20:34.897Z",
+      "revisions": [
+        {
+          "image_url": "/generated/images/B-1791975828563-6z9qp-1-layout-v2.png",
+          "qa": {
+            "status": "pass",
+            "summary": "Bốn khung đáp ứng bố cục Drive; vị trí người, ghế lái và vô lăng nhất quán. Mặt rõ, đúng chữ, số thứ tự và mốc thời gian.",
+            "panels": [
+              {
+                "number": 1,
+                "person_position": "outside_ground",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Người đứng ngoài cửa, phía ngoài bậc lên xuống nâng cao. Đệm nằm trên ghế sát cửa lái, hướng về vô lăng và bảng điều khiển phía trước; ghế phụ ở phía bên kia."
+              },
+              {
+                "number": 2,
+                "person_position": "outside_ground",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Người cầm đệm đứng ngoài thân xe; mặt đường, khung cửa và bậc lên xuống xác lập vị trí bên ngoài. Ghế và vô lăng giữ bố cục nhất quán."
+              },
+              {
+                "number": 3,
+                "person_position": "seated_driver",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Hông đặt trên phần ngồi của đệm ở ghế lái sát cửa; phần tựa nằm sau thân người. Vô lăng và bảng điều khiển phía trước ngực, chân trong khoang để chân người lái."
+              },
+              {
+                "number": 4,
+                "person_position": "outside_ground",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Người đứng ngoài cửa và bên ngoài các bậc nâng cao, chỉ vào đệm trên ghế lái. Đệm hướng về vô lăng phía trước; chữ ưu đãi và CTA đúng yêu cầu."
+              }
+            ],
+            "review_file": "generated/reviews/corrected-drive-layout-1-1791980180675.json",
+            "checked_at": "2026-10-14T12:17:01.076Z"
+          },
+          "story": {
+            "layout": {
+              "id": "US-LEFT-HAND-DRIVE-01",
+              "reference": "assets/environments/DRIVE-CAB-01.png",
+              "driver_seat": "front-left",
+              "passenger_seat": "front-right",
+              "steering_wheel": "dashboard directly ahead of front-left driver seat",
+              "camera": "outside the open front-left driver door, on asphalt; look diagonally forward into the front cab",
+              "rules": "LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames."
+            },
+            "kb": "KB-01",
+            "page": "Drive",
+            "cap": "CAP-0103",
+            "goal": "chuyển đổi",
+            "cta": "2-pack: one for the rig, one for home. Link in bio.",
+            "duration": 30,
+            "character": {
+              "id": "DRIVE-01",
+              "name": "Mike · Drive",
+              "image": "assets/characters/DRIVE-01.png",
+              "description": "the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face"
+            },
+            "variation": 0,
+            "frames": [
+              {
+                "person_position": "outside_ground",
+                "product_position": "installed_driver_seat",
+                "camera_position": "outside_left_driver_door",
+                "action": "Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT inside the cab, directly behind its steering wheel. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.",
+                "feature": "Your everyday seat. Upgraded.",
+                "number": 1,
+                "start": 0,
+                "end": 7,
+                "text": "Your everyday seat. Upgraded.",
+                "cta": false,
+                "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+              },
+              {
+                "person_position": "outside_ground",
+                "product_position": "held_outside",
+                "camera_position": "outside_left_driver_door",
+                "action": "Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, with both shoes grounded. He holds the exact Sevolra cushion at waist height, with his face above it. The door frame, raised entry steps and empty front-left driver seat are behind him. The seat is physically INSIDE the cab; Mike is physically OUTSIDE. Do not show him standing in the cabin or between seats.",
+                "feature": "Seat + back. One piece.",
+                "number": 2,
+                "start": 7,
+                "end": 15,
+                "text": "Seat + back. One piece.",
+                "cta": false,
+                "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+              },
+              {
+                "person_position": "seated_driver",
+                "product_position": "installed_driver_seat",
+                "camera_position": "outside_left_driver_door",
+                "action": "From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab.",
+                "feature": "A cushion for his daily setup.",
+                "number": 3,
+                "start": 15,
+                "end": 23,
+                "text": "A cushion for his daily setup.",
+                "cta": false,
+                "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+              },
+              {
+                "person_position": "outside_ground",
+                "product_position": "installed_driver_seat",
+                "camera_position": "outside_left_driver_door",
+                "action": "Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT inside the cab, directly behind its steering wheel. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.",
+                "feature": "A practical gift.",
+                "number": 4,
+                "start": 23,
+                "end": 30,
+                "text": "2-pack: one for the rig, one for home. Link in bio.",
+                "cta": true,
+                "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+              }
+            ],
+            "caption": "For the driver who already has enough mugs. 🎁\nSeat + lumbar support in one piece.\n2-pack: one for the rig, one for home. Link in bio.",
+            "hashtags": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport",
+            "storyboard_prompt": "Create ONE finished storyboard IMAGE for ONE 30-second vertical video. Exactly FOUR photographic panels in a 2-column by 2-row grid, reading left-to-right then top-to-bottom. No empty panels, no chapter cards, no orange blocks. Label each panel visibly 1, 2, 3, 4 at upper left, with its time interval. Each panel shows a real scene plus the EXACT text below, not just a text card. Include only ONE character throughout: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face; match the attached face reference exactly. Show the character's unobstructed face in all four panels. Keep the entire head, forehead and both eyes clear. Reserve at least 20% clean space above the head for text; move text to a clear lower area if necessary, never over a face. Setting: the same red parked American left-hand-drive truck, open front-left driver door, navy fabric front-left driver seat; presenter stands OUTSIDE on asphalt except frame 3 seated in the driver seat. Variation: soft morning daylight, camera anchored outside the left driver door. Product: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads; use attached official product reference, preserve its silhouette and materials.\n\nMANDATORY PHYSICAL LAYOUT: LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames.\nCamera anchor: outside the open front-left driver door, on asphalt; look diagonally forward into the front cab\n\nPANEL 1, 0–7s: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT inside the cab, directly behind its steering wheel. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.\nVisible on-screen text (verbatim): \"Your everyday seat. Upgraded.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 2, 7–15s: Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, with both shoes grounded. He holds the exact Sevolra cushion at waist height, with his face above it. The door frame, raised entry steps and empty front-left driver seat are behind him. The seat is physically INSIDE the cab; Mike is physically OUTSIDE. Do not show him standing in the cabin or between seats.\nVisible on-screen text (verbatim): \"Seat + back. One piece.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 3, 15–23s: From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab.\nVisible on-screen text (verbatim): \"A cushion for his daily setup.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 4, 23–30s: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT inside the cab, directly behind its steering wheel. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.\nVisible on-screen text (verbatim): \"2-pack: one for the rig, one for home. Link in bio.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPhotorealistic UGC, ordinary natural expression and skin, same face, same clothes, same setting throughout. Every panel must contain a visible photographic scene. Text is part of this finished storyboard and must be readable, correctly spelled, and not cover the face, lumbar ribs or cutout. No wife, gift recipient, extra cast, extra hands, medical spine glow, invented accessories, fake endorsements, treatment before/after, invented underside or removed-cover proof. The panel numbers and timings are guide annotations, not final video text. Total timeline is exactly 30 seconds.",
+            "video_prompt": "Create ONE complete 30-second vertical 9:16 product-demo video (1080×1920, 30fps) from the attached FOUR-panel Sevolra storyboard. Use the sheet as a shot guide; do NOT animate the whole grid or show the four panels simultaneously. Read panels 1→2→3→4 in order, and render each as a full-screen sequential shot.\n\nIDENTITY: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face. Only this character; keep the same unobstructed face and outfit throughout.\nPRODUCT: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads. Preserve attached official reference exactly.\nSETTING: the same red parked American left-hand-drive truck, open front-left driver door, navy fabric front-left driver seat; presenter stands OUTSIDE on asphalt except frame 3 seated in the driver seat. soft morning daylight, camera anchored outside the left driver door. Truck remains parked.\n\nMANDATORY PHYSICAL LAYOUT: LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames.\nCamera anchor: outside the open front-left driver door, on asphalt; look diagonally forward into the front cab\n\nEXACT 30-SECOND TIMELINE:\n0.0–7.0 seconds — PANEL 1: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT inside the cab, directly behind its steering wheel. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Your everyday seat. Upgraded.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n7.0–15.0 seconds — PANEL 2: Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, with both shoes grounded. He holds the exact Sevolra cushion at waist height, with his face above it. The door frame, raised entry steps and empty front-left driver seat are behind him. The seat is physically INSIDE the cab; Mike is physically OUTSIDE. Do not show him standing in the cabin or between seats. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Seat + back. One piece.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n15.0–23.0 seconds — PANEL 3: From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. One simple action or gentle camera push-in only. On-screen text, verbatim: \"A cushion for his daily setup.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n23.0–30.0 seconds — PANEL 4: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT inside the cab, directly behind its steering wheel. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat. One simple action or gentle camera push-in only. On-screen text, verbatim: \"2-pack: one for the rig, one for home. Link in bio.\". CTA stays visible through the final second.\n\nUse clean cuts between shots. No orange chapter cards, blank title screens, contact-sheet grid, panel numbers or timestamps in the final video. Keep exact English text as specified; final shot has ONE CTA: \"2-pack: one for the rig, one for home. Link in bio.\". No extra CTA, medical claims, invented testimonial, deep foam compression, fake product details, split cushions, extra characters or face changes. Ambient sound only; no dialogue or simulated customer review. Duration exactly 30.0 seconds; no loop beyond 30 seconds. If the selected renderer cannot output 30 seconds in one call, retain this single master prompt/timeline and render compatible clips for assembly; do not label a shorter clip as a 30-second video.",
+            "status": "DRAFT",
+            "reference": "assets/product/SEVOLRA-01.png"
+          }
+        },
+        {
+          "image_url": "/generated/images/B-1791975828563-6z9qp-1-product-v3.png",
+          "qa": {
+            "status": "pass",
+            "summary": "Bốn khung phù hợp bố cục Drive. Hướng đệm, tỷ lệ so với ghế và cơ thể nhất quán về mặt thị giác; chữ đúng, dễ đọc và mặt không bị che.",
+            "panels": [
+              {
+                "number": 1,
+                "person_position": "outside_ground",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Người đứng ngoài cửa, phía ngoài bậc lên cabin. Đệm trên ghế lái gần cửa; lưng đệm áp tựa ghế bên phải ảnh, phần đùi hướng trái về vô lăng. Còn viền ghế xanh; chữ nằm thấp đúng vùng yêu cầu. Số và thời gian đúng.",
+                "product_orientation_ok": true,
+                "product_scale_ok": true,
+                "text_placement_ok": true
+              },
+              {
+                "number": 2,
+                "person_position": "outside_ground",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Thân người ở ngoài xe, có nền đất và bậc cabin phía sau làm mốc. Đệm cầm ngang eo, gần mặt phẳng thân người, bề ngang xấp xỉ vai. Chữ đúng và nằm dưới sản phẩm, khoảng 77–83% chiều cao khung. Số và thời gian đúng.",
+                "product_orientation_ok": true,
+                "product_scale_ok": true,
+                "text_placement_ok": true
+              },
+              {
+                "number": 3,
+                "person_position": "seated_driver",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Hông đặt trên đệm ở ghế lái, lưng đệm sau thân, chân trong khoang để chân và vô lăng phía trước. Phần đế xám cùng viền ghế xanh còn thấy phù hợp tỷ lệ các khung ghế trống; không thấy đệm phình lớn khi ngồi. Chữ ở giữa khung đúng vùng yêu cầu; số và thời gian đúng.",
+                "product_orientation_ok": true,
+                "product_scale_ok": true,
+                "text_placement_ok": true
+              },
+              {
+                "number": 4,
+                "person_position": "outside_ground",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Người đứng ngoài thân xe và bậc lên xuống. Đệm giữ hướng dọc ghế: tựa phía sau bên phải ảnh, phần đùi hướng vô lăng bên trái. Kích thước và viền xanh tương ứng khung 1. CTA đúng, nằm thấp, không che mặt hoặc đệm; số và thời gian đúng.",
+                "product_orientation_ok": true,
+                "product_scale_ok": true,
+                "text_placement_ok": true
+              }
+            ],
+            "review_file": "generated/reviews/product-v3-1-1791981705605.json",
+            "checked_at": "2026-10-14T12:42:17.032Z"
+          },
+          "story": {
+            "layout": {
+              "id": "US-LEFT-HAND-DRIVE-01",
+              "reference": "assets/environments/DRIVE-CAB-01.png",
+              "driver_seat": "front-left",
+              "passenger_seat": "front-right",
+              "steering_wheel": "dashboard directly ahead of front-left driver seat",
+              "product_dimensions_cm": {
+                "width": 44,
+                "depth": 40,
+                "height": 37
+              },
+              "staging_seat_cm": {
+                "width": 55,
+                "depth": 50
+              },
+              "product_to_seat_ratio": {
+                "width": 0.8,
+                "depth": 0.8
+              },
+              "product_axis": "same longitudinal axis as driver seat; front toward dashboard, rear lumbar against seat backrest",
+              "camera": "outside the open front-left driver door, on asphalt; look diagonally forward into the front cab",
+              "rules": "PRODUCT DIRECTION AND SCALE LOCK: product44cm wide x40cm deep x37cm high, never changes physical size. This staging uses the same55cm wide x50cm deep driver seat as ruler: cushion width80% and depth80% of that seat, visible blue fabric margins. These are staging dimensions, not a manufacturer claim about every truck. Installed cushion lumbar REAR sits flush against original blue seat BACKREST (vehicle REAR, image RIGHT in the outside-left-door view); its FRONT thigh lobes point toward dashboard/steering wheel (vehicle FRONT, image LEFT). Its longitudinal axis is parallel to the driver seat, NEVER perpendicular and NEVER toward the open door/camera. Show side/oblique profile from this camera; do not rotate the product for a frontal beauty view. Empty-seat panels1/4 and occupied panel3 share identical seat-plane footprint, rear contact, front edge and side margins after accounting for perspective/occlusion. No growth in width, depth, thickness or lumbar height when occupied. Lumbar top reaches lower back below shoulder blades, not headrest. Held cushion panel2 remains44cm wide, roughly presenter shoulder width, at waist in the torso plane, not closer to lens to appear huge. LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames."
+            },
+            "kb": "KB-01",
+            "page": "Drive",
+            "cap": "CAP-0103",
+            "goal": "chuyển đổi",
+            "cta": "2-pack: one for the rig, one for home. Link in bio.",
+            "duration": 30,
+            "character": {
+              "id": "DRIVE-01",
+              "name": "Mike · Drive",
+              "image": "assets/characters/DRIVE-01.png",
+              "description": "the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face"
+            },
+            "variation": 0,
+            "frames": [
+              {
+                "person_position": "outside_ground",
+                "product_position": "installed_driver_seat",
+                "product_axis": "seat_forward",
+                "product_scale": "44x40x37cm-fixed",
+                "camera_position": "outside_left_driver_door",
+                "action": "Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT. Its rear lumbar surface contacts the original seat BACKREST on image RIGHT; its front lobes point LEFT toward dashboard/wheel, NEVER outward at the open door. Match the seat longitudinal axis; show SIDE PROFILE. Exact44x40x37cm size,80% of same blue seat width/depth, matching occupied panel3 footprint. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.",
+                "feature": "Your everyday seat. Upgraded.",
+                "number": 1,
+                "start": 0,
+                "end": 7,
+                "text": "Your everyday seat. Upgraded.",
+                "cta": false,
+                "overlay": "Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines."
+              },
+              {
+                "person_position": "outside_ground",
+                "product_position": "held_outside",
+                "product_axis": "held_front_view",
+                "product_scale": "44x40x37cm-fixed",
+                "camera_position": "outside_left_driver_door",
+                "action": "Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, with both shoes grounded. He holds the exact44cm-wide Sevolra cushion at waist height in the torso plane, about his shoulder width, NOT closer to lens and NOT oversized, with his face above it. The door frame, raised entry steps and empty front-left driver seat are behind him. The seat is physically INSIDE the cab; Mike is physically OUTSIDE. Do not show him standing in the cabin or between seats.",
+                "feature": "Seat + back. One piece.",
+                "number": 2,
+                "start": 7,
+                "end": 15,
+                "text": "Seat + back. One piece.",
+                "cta": false,
+                "overlay": "Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines."
+              },
+              {
+                "person_position": "seated_driver",
+                "product_position": "installed_driver_seat",
+                "product_axis": "seat_forward",
+                "product_scale": "44x40x37cm-fixed",
+                "camera_position": "outside_left_driver_door",
+                "action": "Use the IDENTICAL installed44x40x37cm cushion footprint and orientation as panels1/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab.",
+                "feature": "A cushion for his daily setup.",
+                "number": 3,
+                "start": 15,
+                "end": 23,
+                "text": "A cushion for his daily setup.",
+                "cta": false,
+                "overlay": "Headline lower than top quarter,48–62% of panel height, on clear plain-shirt/background below face and above cushion/thighs. Avoid face, hands, wheel and product. White bold type on dark translucent box,8% side insets, max3 lines."
+              },
+              {
+                "person_position": "outside_ground",
+                "product_position": "installed_driver_seat",
+                "product_axis": "seat_forward",
+                "product_scale": "44x40x37cm-fixed",
+                "camera_position": "outside_left_driver_door",
+                "action": "Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT. Its rear lumbar surface contacts the original seat BACKREST on image RIGHT; its front lobes point LEFT toward dashboard/wheel, NEVER outward at the open door. Match the seat longitudinal axis; show SIDE PROFILE. Exact44x40x37cm size,80% of same blue seat width/depth, matching occupied panel3 footprint. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.",
+                "feature": "A practical gift.",
+                "number": 4,
+                "start": 23,
+                "end": 30,
+                "text": "2-pack: one for the rig, one for home. Link in bio.",
+                "cta": true,
+                "overlay": "Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines."
+              }
+            ],
+            "caption": "For the driver who already has enough mugs. 🎁\nSeat + lumbar support in one piece.\n2-pack: one for the rig, one for home. Link in bio.",
+            "hashtags": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport",
+            "storyboard_prompt": "Create ONE finished storyboard IMAGE for ONE 30-second vertical video. Exactly FOUR photographic panels in a 2-column by 2-row grid, reading left-to-right then top-to-bottom. No empty panels, no chapter cards, no orange blocks. Label each panel visibly 1, 2, 3, 4 at upper left, with its time interval. Each panel shows a real scene plus the EXACT text below, not just a text card. Include only ONE character throughout: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face; match the attached face reference exactly. Show the character's unobstructed face in all four panels. Keep the entire head, forehead and both eyes clear. Do NOT put headline boxes in the top25% of panels. Reserve lower-middle negative space for the readable captions per panel. Numbers/timings alone remain at top left. Never place text over a face or product. Setting: the same red parked American left-hand-drive truck, open front-left driver door, navy fabric front-left driver seat; presenter stands OUTSIDE on asphalt except frame 3 seated in the driver seat. Variation: soft morning daylight, camera anchored outside the left driver door. Product: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads; use attached official product reference, preserve its silhouette and materials.\n\nMANDATORY PHYSICAL LAYOUT: PRODUCT DIRECTION AND SCALE LOCK: product44cm wide x40cm deep x37cm high, never changes physical size. This staging uses the same55cm wide x50cm deep driver seat as ruler: cushion width80% and depth80% of that seat, visible blue fabric margins. These are staging dimensions, not a manufacturer claim about every truck. Installed cushion lumbar REAR sits flush against original blue seat BACKREST (vehicle REAR, image RIGHT in the outside-left-door view); its FRONT thigh lobes point toward dashboard/steering wheel (vehicle FRONT, image LEFT). Its longitudinal axis is parallel to the driver seat, NEVER perpendicular and NEVER toward the open door/camera. Show side/oblique profile from this camera; do not rotate the product for a frontal beauty view. Empty-seat panels1/4 and occupied panel3 share identical seat-plane footprint, rear contact, front edge and side margins after accounting for perspective/occlusion. No growth in width, depth, thickness or lumbar height when occupied. Lumbar top reaches lower back below shoulder blades, not headrest. Held cushion panel2 remains44cm wide, roughly presenter shoulder width, at waist in the torso plane, not closer to lens to appear huge. LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames.\nCamera anchor: outside the open front-left driver door, on asphalt; look diagonally forward into the front cab\n\nPANEL 1, 0–7s: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT. Its rear lumbar surface contacts the original seat BACKREST on image RIGHT; its front lobes point LEFT toward dashboard/wheel, NEVER outward at the open door. Match the seat longitudinal axis; show SIDE PROFILE. Exact44x40x37cm size,80% of same blue seat width/depth, matching occupied panel3 footprint. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.\nVisible on-screen text (verbatim): \"Your everyday seat. Upgraded.\". Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines.\n\nPANEL 2, 7–15s: Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, with both shoes grounded. He holds the exact44cm-wide Sevolra cushion at waist height in the torso plane, about his shoulder width, NOT closer to lens and NOT oversized, with his face above it. The door frame, raised entry steps and empty front-left driver seat are behind him. The seat is physically INSIDE the cab; Mike is physically OUTSIDE. Do not show him standing in the cabin or between seats.\nVisible on-screen text (verbatim): \"Seat + back. One piece.\". Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines.\n\nPANEL 3, 15–23s: Use the IDENTICAL installed44x40x37cm cushion footprint and orientation as panels1/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab.\nVisible on-screen text (verbatim): \"A cushion for his daily setup.\". Headline lower than top quarter,48–62% of panel height, on clear plain-shirt/background below face and above cushion/thighs. Avoid face, hands, wheel and product. White bold type on dark translucent box,8% side insets, max3 lines.\n\nPANEL 4, 23–30s: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT. Its rear lumbar surface contacts the original seat BACKREST on image RIGHT; its front lobes point LEFT toward dashboard/wheel, NEVER outward at the open door. Match the seat longitudinal axis; show SIDE PROFILE. Exact44x40x37cm size,80% of same blue seat width/depth, matching occupied panel3 footprint. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.\nVisible on-screen text (verbatim): \"2-pack: one for the rig, one for home. Link in bio.\". Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines.\n\nPhotorealistic UGC, ordinary natural expression and skin, same face, same clothes, same setting throughout. Every panel must contain a visible photographic scene. Text is part of this finished storyboard and must be readable, correctly spelled, and not cover the face, lumbar ribs or cutout. No wife, gift recipient, extra cast, extra hands, medical spine glow, invented accessories, fake endorsements, treatment before/after, invented underside or removed-cover proof. The panel numbers and timings are guide annotations, not final video text. Total timeline is exactly 30 seconds.",
+            "video_prompt": "Create ONE complete 30-second vertical 9:16 product-demo video (1080×1920, 30fps) from the attached FOUR-panel Sevolra storyboard. Use the sheet as a shot guide; do NOT animate the whole grid or show the four panels simultaneously. Read panels 1→2→3→4 in order, and render each as a full-screen sequential shot.\n\nIDENTITY: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face. Only this character; keep the same unobstructed face and outfit throughout.\nPRODUCT: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads. Preserve attached official reference exactly.\nSETTING: the same red parked American left-hand-drive truck, open front-left driver door, navy fabric front-left driver seat; presenter stands OUTSIDE on asphalt except frame 3 seated in the driver seat. soft morning daylight, camera anchored outside the left driver door. Truck remains parked.\n\nMANDATORY PHYSICAL LAYOUT: PRODUCT DIRECTION AND SCALE LOCK: product44cm wide x40cm deep x37cm high, never changes physical size. This staging uses the same55cm wide x50cm deep driver seat as ruler: cushion width80% and depth80% of that seat, visible blue fabric margins. These are staging dimensions, not a manufacturer claim about every truck. Installed cushion lumbar REAR sits flush against original blue seat BACKREST (vehicle REAR, image RIGHT in the outside-left-door view); its FRONT thigh lobes point toward dashboard/steering wheel (vehicle FRONT, image LEFT). Its longitudinal axis is parallel to the driver seat, NEVER perpendicular and NEVER toward the open door/camera. Show side/oblique profile from this camera; do not rotate the product for a frontal beauty view. Empty-seat panels1/4 and occupied panel3 share identical seat-plane footprint, rear contact, front edge and side margins after accounting for perspective/occlusion. No growth in width, depth, thickness or lumbar height when occupied. Lumbar top reaches lower back below shoulder blades, not headrest. Held cushion panel2 remains44cm wide, roughly presenter shoulder width, at waist in the torso plane, not closer to lens to appear huge. LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames.\nCamera anchor: outside the open front-left driver door, on asphalt; look diagonally forward into the front cab\n\nEXACT 30-SECOND TIMELINE:\n0.0–7.0 seconds — PANEL 1: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT. Its rear lumbar surface contacts the original seat BACKREST on image RIGHT; its front lobes point LEFT toward dashboard/wheel, NEVER outward at the open door. Match the seat longitudinal axis; show SIDE PROFILE. Exact44x40x37cm size,80% of same blue seat width/depth, matching occupied panel3 footprint. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Your everyday seat. Upgraded.\". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.\n7.0–15.0 seconds — PANEL 2: Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, with both shoes grounded. He holds the exact44cm-wide Sevolra cushion at waist height in the torso plane, about his shoulder width, NOT closer to lens and NOT oversized, with his face above it. The door frame, raised entry steps and empty front-left driver seat are behind him. The seat is physically INSIDE the cab; Mike is physically OUTSIDE. Do not show him standing in the cabin or between seats. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Seat + back. One piece.\". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.\n15.0–23.0 seconds — PANEL 3: Use the IDENTICAL installed44x40x37cm cushion footprint and orientation as panels1/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. One simple action or gentle camera push-in only. On-screen text, verbatim: \"A cushion for his daily setup.\". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.\n23.0–30.0 seconds — PANEL 4: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT. Its rear lumbar surface contacts the original seat BACKREST on image RIGHT; its front lobes point LEFT toward dashboard/wheel, NEVER outward at the open door. Match the seat longitudinal axis; show SIDE PROFILE. Exact44x40x37cm size,80% of same blue seat width/depth, matching occupied panel3 footprint. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat. One simple action or gentle camera push-in only. On-screen text, verbatim: \"2-pack: one for the rig, one for home. Link in bio.\". CTA in lower middle68–82% of frame height stays visible through the final second, not at the top or extreme bottom.\n\nUse clean cuts between shots. No orange chapter cards, blank title screens, contact-sheet grid, panel numbers or timestamps in the final video. Keep exact English text as specified; final shot has ONE CTA: \"2-pack: one for the rig, one for home. Link in bio.\". No extra CTA, medical claims, invented testimonial, deep foam compression, fake product details, split cushions, extra characters or face changes. Ambient sound only; no dialogue or simulated customer review. Duration exactly 30.0 seconds; no loop beyond 30 seconds. If the selected renderer cannot output 30 seconds in one call, retain this single master prompt/timeline and render compatible clips for assembly; do not label a shorter clip as a 30-second video.",
+            "status": "DRAFT",
+            "reference": "assets/product/SEVOLRA-01.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "B-1791975828563-6z9qp-2",
+      "index": 2,
+      "status": "done",
+      "story": {
+        "layout": {
+          "id": "US-LEFT-HAND-DRIVE-01",
+          "reference": "assets/environments/DRIVE-SEATED-SHEET-01.png",
+          "driver_seat": "front-left",
+          "passenger_seat": "front-right",
+          "steering_wheel": "dashboard directly ahead of front-left driver seat",
+          "product_dimensions_cm": {
+            "width": 44,
+            "depth": 40,
+            "height": 37
+          },
+          "staging_seat_cm": {
+            "width": 55,
+            "depth": 50
+          },
+          "product_to_seat_ratio": {
+            "width": 0.8,
+            "depth": 0.8
+          },
+          "product_axis": "same longitudinal axis as driver seat; front toward dashboard, rear lumbar against seat backrest",
+          "camera": "outside the open front-left driver door, on asphalt; look diagonally forward into the front cab",
+          "rules": "PRODUCT DIRECTION AND SCALE LOCK: product44cm wide x40cm deep x37cm high, never changes physical size. This staging uses the same55cm wide x50cm deep driver seat as ruler: cushion width80% and depth80% of that seat, visible blue fabric margins. These are staging dimensions, not a manufacturer claim about every truck. Installed cushion lumbar REAR sits flush against original blue seat BACKREST (vehicle REAR, image RIGHT in the outside-left-door view); its FRONT thigh lobes point toward dashboard/steering wheel (vehicle FRONT, image LEFT). Its longitudinal axis is parallel to the driver seat, NEVER perpendicular and NEVER toward the open door/camera. Use the approved seated storyboard reference as the geometry guide; panels1/3/4 use the same upright occupied driver seat as its panel3 side/oblique view. No empty-seat product display scenes. Do not rotate the product for a frontal beauty view. Seated-driver panels1/3/4 share identical seat-plane footprint, rear contact, front edge and side margins after accounting for perspective/occlusion. No growth in width, depth, thickness or lumbar height when occupied. Lumbar top reaches lower back below shoulder blades, not headrest. Held cushion panel2 remains44cm wide, roughly presenter shoulder width, at waist in the torso plane, not closer to lens to appear huge. LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames."
+        },
+        "kb": "KB-01",
+        "page": "Drive",
+        "cap": "CAP-0103",
+        "goal": "chuyển đổi",
+        "cta": "2-pack: one for the rig, one for home. Link in bio.",
+        "duration": 30,
+        "character": {
+          "id": "DRIVE-01",
+          "name": "Mike · Drive",
+          "image": "assets/characters/DRIVE-01.png",
+          "description": "the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face"
+        },
+        "variation": 1,
+        "frames": [
+          {
+            "person_position": "seated_driver",
+            "product_position": "installed_driver_seat",
+            "product_axis": "seat_forward",
+            "product_scale": "44x40x37cm-fixed",
+            "camera_position": "outside_left_driver_door",
+            "action": "NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. He looks toward viewer naturally with hands resting on the wheel.",
+            "feature": "Your everyday seat. Upgraded.",
+            "number": 1,
+            "start": 0,
+            "end": 7,
+            "text": "Your everyday seat. Upgraded.",
+            "cta": false,
+            "overlay": "Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines."
+          },
+          {
+            "person_position": "outside_ground",
+            "product_position": "held_outside",
+            "product_axis": "held_front_view",
+            "product_scale": "44x40x37cm-fixed",
+            "camera_position": "outside_left_driver_door",
+            "action": "Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, both shoes grounded. He holds the exact44cm-wide Sevolra cushion at waist height in the torso plane, about his shoulder width, NOT closer to lens and NOT oversized, with his face above it. The door frame and raised entry steps distinguish the outside from the cab. Do not show him standing in the cabin or between seats.",
+            "feature": "Seat + back. One piece.",
+            "number": 2,
+            "start": 7,
+            "end": 15,
+            "text": "Seat + back. One piece.",
+            "cta": false,
+            "overlay": "Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines."
+          },
+          {
+            "person_position": "seated_driver",
+            "product_position": "installed_driver_seat",
+            "product_axis": "seat_forward",
+            "product_scale": "44x40x37cm-fixed",
+            "camera_position": "outside_left_driver_door",
+            "action": "NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab.",
+            "feature": "A cushion for his daily setup.",
+            "number": 3,
+            "start": 15,
+            "end": 23,
+            "text": "A cushion for his daily setup.",
+            "cta": false,
+            "overlay": "Headline lower than top quarter,48–62% of panel height, on clear plain-shirt/background below face and above cushion/thighs. Avoid face, hands, wheel and product. White bold type on dark translucent box,8% side insets, max3 lines."
+          },
+          {
+            "person_position": "seated_driver",
+            "product_position": "installed_driver_seat",
+            "product_axis": "seat_forward",
+            "product_scale": "44x40x37cm-fixed",
+            "camera_position": "outside_left_driver_door",
+            "action": "NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. Keep him seated forward; one hand makes a small gesture toward the seat base for the CTA, no torso twist or seat movement.",
+            "feature": "A practical gift.",
+            "number": 4,
+            "start": 23,
+            "end": 30,
+            "text": "2-pack: one for the rig, one for home. Link in bio.",
+            "cta": true,
+            "overlay": "Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines."
+          }
+        ],
+        "caption": "For the driver who already has enough mugs. 🎁\nSeat + lumbar support in one piece.\n2-pack: one for the rig, one for home. Link in bio.",
+        "hashtags": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport",
+        "storyboard_prompt": "Create ONE finished storyboard IMAGE for ONE 30-second vertical video. Exactly FOUR photographic panels in a 2-column by 2-row grid, reading left-to-right then top-to-bottom. No empty panels, no chapter cards, no orange blocks. Label each panel visibly 1, 2, 3, 4 at upper left, with its time interval. Each panel shows a real scene plus the EXACT text below, not just a text card. Include only ONE character throughout: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face; match the attached face reference exactly. Show the character's unobstructed face in all four panels. Keep the entire head, forehead and both eyes clear. Do NOT put headline boxes in the top25% of panels. Reserve lower-middle negative space for the readable captions per panel. Numbers/timings alone remain at top left. Never place text over a face or product. Setting: the same red parked American left-hand-drive truck, open front-left driver door, navy fabric front-left driver seat; presenter seated upright and forward on the SAME driver seat in panels1/3/4; only panel2 is outside holding the cushion. Variation: warm afternoon daylight, camera anchored outside the same left driver door. Product: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads; use attached official product reference, preserve its silhouette and materials.\n\nMANDATORY PHYSICAL LAYOUT: PRODUCT DIRECTION AND SCALE LOCK: product44cm wide x40cm deep x37cm high, never changes physical size. This staging uses the same55cm wide x50cm deep driver seat as ruler: cushion width80% and depth80% of that seat, visible blue fabric margins. These are staging dimensions, not a manufacturer claim about every truck. Installed cushion lumbar REAR sits flush against original blue seat BACKREST (vehicle REAR, image RIGHT in the outside-left-door view); its FRONT thigh lobes point toward dashboard/steering wheel (vehicle FRONT, image LEFT). Its longitudinal axis is parallel to the driver seat, NEVER perpendicular and NEVER toward the open door/camera. Use the approved seated storyboard reference as the geometry guide; panels1/3/4 use the same upright occupied driver seat as its panel3 side/oblique view. No empty-seat product display scenes. Do not rotate the product for a frontal beauty view. Seated-driver panels1/3/4 share identical seat-plane footprint, rear contact, front edge and side margins after accounting for perspective/occlusion. No growth in width, depth, thickness or lumbar height when occupied. Lumbar top reaches lower back below shoulder blades, not headrest. Held cushion panel2 remains44cm wide, roughly presenter shoulder width, at waist in the torso plane, not closer to lens to appear huge. LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames.\nCamera anchor: outside the open front-left driver door, on asphalt; look diagonally forward into the front cab\n\nPANEL 1, 0–7s: NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. He looks toward viewer naturally with hands resting on the wheel.\nVisible on-screen text (verbatim): \"Your everyday seat. Upgraded.\". Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines.\n\nPANEL 2, 7–15s: Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, both shoes grounded. He holds the exact44cm-wide Sevolra cushion at waist height in the torso plane, about his shoulder width, NOT closer to lens and NOT oversized, with his face above it. The door frame and raised entry steps distinguish the outside from the cab. Do not show him standing in the cabin or between seats.\nVisible on-screen text (verbatim): \"Seat + back. One piece.\". Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines.\n\nPANEL 3, 15–23s: NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab.\nVisible on-screen text (verbatim): \"A cushion for his daily setup.\". Headline lower than top quarter,48–62% of panel height, on clear plain-shirt/background below face and above cushion/thighs. Avoid face, hands, wheel and product. White bold type on dark translucent box,8% side insets, max3 lines.\n\nPANEL 4, 23–30s: NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. Keep him seated forward; one hand makes a small gesture toward the seat base for the CTA, no torso twist or seat movement.\nVisible on-screen text (verbatim): \"2-pack: one for the rig, one for home. Link in bio.\". Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines.\n\nPhotorealistic UGC, ordinary natural expression and skin, same face, same clothes, same setting throughout. Every panel must contain a visible photographic scene. Text is part of this finished storyboard and must be readable, correctly spelled, and not cover the face, lumbar ribs or cutout. No wife, gift recipient, extra cast, extra hands, medical spine glow, invented accessories, fake endorsements, treatment before/after, invented underside or removed-cover proof. The panel numbers and timings are guide annotations, not final video text. Total timeline is exactly 30 seconds.",
+        "video_prompt": "Create ONE complete 30-second vertical 9:16 product-demo video (1080×1920, 30fps) from the attached FOUR-panel Sevolra storyboard. Use the sheet as a shot guide; do NOT animate the whole grid or show the four panels simultaneously. Read panels 1→2→3→4 in order, and render each as a full-screen sequential shot.\n\nIDENTITY: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face. Only this character; keep the same unobstructed face and outfit throughout.\nPRODUCT: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads. Preserve attached official reference exactly.\nSETTING: the same red parked American left-hand-drive truck, open front-left driver door, navy fabric front-left driver seat; presenter seated upright and forward on the SAME driver seat in panels1/3/4; only panel2 is outside holding the cushion. warm afternoon daylight, camera anchored outside the same left driver door. Truck remains parked.\n\nMANDATORY PHYSICAL LAYOUT: PRODUCT DIRECTION AND SCALE LOCK: product44cm wide x40cm deep x37cm high, never changes physical size. This staging uses the same55cm wide x50cm deep driver seat as ruler: cushion width80% and depth80% of that seat, visible blue fabric margins. These are staging dimensions, not a manufacturer claim about every truck. Installed cushion lumbar REAR sits flush against original blue seat BACKREST (vehicle REAR, image RIGHT in the outside-left-door view); its FRONT thigh lobes point toward dashboard/steering wheel (vehicle FRONT, image LEFT). Its longitudinal axis is parallel to the driver seat, NEVER perpendicular and NEVER toward the open door/camera. Use the approved seated storyboard reference as the geometry guide; panels1/3/4 use the same upright occupied driver seat as its panel3 side/oblique view. No empty-seat product display scenes. Do not rotate the product for a frontal beauty view. Seated-driver panels1/3/4 share identical seat-plane footprint, rear contact, front edge and side margins after accounting for perspective/occlusion. No growth in width, depth, thickness or lumbar height when occupied. Lumbar top reaches lower back below shoulder blades, not headrest. Held cushion panel2 remains44cm wide, roughly presenter shoulder width, at waist in the torso plane, not closer to lens to appear huge. LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames.\nCamera anchor: outside the open front-left driver door, on asphalt; look diagonally forward into the front cab\n\nEXACT 30-SECOND TIMELINE:\n0.0–7.0 seconds — PANEL 1: NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. He looks toward viewer naturally with hands resting on the wheel. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Your everyday seat. Upgraded.\". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.\n7.0–15.0 seconds — PANEL 2: Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, both shoes grounded. He holds the exact44cm-wide Sevolra cushion at waist height in the torso plane, about his shoulder width, NOT closer to lens and NOT oversized, with his face above it. The door frame and raised entry steps distinguish the outside from the cab. Do not show him standing in the cabin or between seats. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Seat + back. One piece.\". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.\n15.0–23.0 seconds — PANEL 3: NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. One simple action or gentle camera push-in only. On-screen text, verbatim: \"A cushion for his daily setup.\". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.\n23.0–30.0 seconds — PANEL 4: NO EMPTY-SEAT PRODUCT DISPLAY. Panels1/3/4 all show the same STRAIGHT forward-facing DRIVER SEAT occupied by Mike, matching panel3 seat/camera reference. Keep the original vehicle seat upright, no sideways swivel or rotation toward door. Use the IDENTICAL installed44x40x37cm cushion footprint and orientation across panels1/3/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. Keep him seated forward; one hand makes a small gesture toward the seat base for the CTA, no torso twist or seat movement. One simple action or gentle camera push-in only. On-screen text, verbatim: \"2-pack: one for the rig, one for home. Link in bio.\". CTA matches the reference caption zone, lower48–82% according to available clear space of frame height; stays visible through the final second, below face and clear of product.\n\nUse clean cuts between shots. No orange chapter cards, blank title screens, contact-sheet grid, panel numbers or timestamps in the final video. Keep exact English text as specified; final shot has ONE CTA: \"2-pack: one for the rig, one for home. Link in bio.\". No extra CTA, medical claims, invented testimonial, deep foam compression, fake product details, split cushions, extra characters or face changes. Ambient sound only; no dialogue or simulated customer review. Duration exactly 30.0 seconds; no loop beyond 30 seconds. If the selected renderer cannot output 30 seconds in one call, retain this single master prompt/timeline and render compatible clips for assembly; do not label a shorter clip as a 30-second video.",
+        "status": "DRAFT",
+        "reference": "assets/product/SEVOLRA-01.png"
+      },
+      "started_at": "2026-10-14T11:03:48.564Z",
+      "image_url": "/generated/images/B-1791975828563-6z9qp-2-seated-v5.png",
+      "image_bytes": 2391572,
+      "finished_at": "2026-10-14T11:04:49.207Z",
+      "qa_note": "Đã sửa logic người/ghế/vô-lăng và kiểm tra từng khung.",
+      "previous_image_url": "/generated/images/B-1791975828563-6z9qp-2.png",
+      "previous_story": {
+        "kb": "KB-01",
+        "page": "Drive",
+        "cap": "CAP-0103",
+        "goal": "chuyển đổi",
+        "cta": "2-pack: one for the rig, one for home. Link in bio.",
+        "duration": 30,
+        "character": {
+          "id": "DRIVE-01",
+          "name": "Mike · Drive",
+          "image": "assets/characters/DRIVE-01.png",
+          "description": "the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face"
+        },
+        "variation": 1,
+        "frames": [
+          {
+            "number": 1,
+            "start": 0,
+            "end": 7,
+            "text": "Your everyday seat. Upgraded.",
+            "action": "Presenter beside the seat, face clearly visible; holds one ordinary mug, then looks at the cushion.",
+            "cta": false,
+            "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+          },
+          {
+            "number": 2,
+            "start": 7,
+            "end": 15,
+            "text": "Seat + back. One piece.",
+            "action": "Same presenter shows exact cushion at waist height; face and whole integrated cushion visible.",
+            "cta": false,
+            "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+          },
+          {
+            "number": 3,
+            "start": 15,
+            "end": 23,
+            "text": "A cushion for his daily setup.",
+            "action": "Same presenter sitting naturally on the cushion in the matching chair, face in three-quarter view.",
+            "cta": false,
+            "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+          },
+          {
+            "number": 4,
+            "start": 23,
+            "end": 30,
+            "text": "2-pack: one for the rig, one for home. Link in bio.",
+            "action": "Same presenter beside the cushion on the matching seat, face clearly visible.",
+            "cta": true,
+            "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+          }
+        ],
+        "caption": "For the driver who already has enough mugs. 🎁\nSeat + lumbar support in one piece.\n2-pack: one for the rig, one for home. Link in bio.",
+        "hashtags": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport",
+        "storyboard_prompt": "Create ONE finished storyboard IMAGE for ONE 30-second vertical video. Exactly FOUR photographic panels in a 2-column by 2-row grid, reading left-to-right then top-to-bottom. No empty panels, no chapter cards, no orange blocks. Label each panel visibly 1, 2, 3, 4 at upper left, with its time interval. Each panel shows a real scene plus the EXACT text below, not just a text card. Include only ONE character throughout: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face; match the attached face reference exactly. Show the character's unobstructed face in all four panels. Setting: a parked truck cabin and open cab door, navy fabric truck seat. Variation: side three-quarter camera, warm late-afternoon daylight. Product: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads; use attached official product reference, preserve its silhouette and materials.\n\nPANEL 1, 0–7s: Presenter beside the seat, face clearly visible; holds one ordinary mug, then looks at the cushion.\nVisible on-screen text (verbatim): \"Your everyday seat. Upgraded.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 2, 7–15s: Same presenter shows exact cushion at waist height; face and whole integrated cushion visible.\nVisible on-screen text (verbatim): \"Seat + back. One piece.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 3, 15–23s: Same presenter sitting naturally on the cushion in the matching chair, face in three-quarter view.\nVisible on-screen text (verbatim): \"A cushion for his daily setup.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 4, 23–30s: Same presenter beside the cushion on the matching seat, face clearly visible.\nVisible on-screen text (verbatim): \"2-pack: one for the rig, one for home. Link in bio.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPhotorealistic UGC, ordinary natural expression and skin, same face, same clothes, same setting throughout. Every panel must contain a visible photographic scene. Text is part of this finished storyboard and must be readable, correctly spelled, and not cover the face, lumbar ribs or cutout. No wife, gift recipient, extra cast, extra hands, medical spine glow, invented accessories, fake endorsements, treatment before/after, invented underside or removed-cover proof. The panel numbers and timings are guide annotations, not final video text. Total timeline is exactly 30 seconds.",
+        "video_prompt": "Create ONE complete 30-second vertical 9:16 product-demo video (1080×1920, 30fps) from the attached FOUR-panel Sevolra storyboard. Use the sheet as a shot guide; do NOT animate the whole grid or show the four panels simultaneously. Read panels 1→2→3→4 in order, and render each as a full-screen sequential shot.\n\nIDENTITY: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face. Only this character; keep the same unobstructed face and outfit throughout.\nPRODUCT: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads. Preserve attached official reference exactly.\nSETTING: a parked truck cabin and open cab door, navy fabric truck seat. side three-quarter camera, warm late-afternoon daylight. Truck remains parked.\n\nEXACT 30-SECOND TIMELINE:\n0.0–7.0 seconds — PANEL 1: Presenter beside the seat, face clearly visible; holds one ordinary mug, then looks at the cushion. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Your everyday seat. Upgraded.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n7.0–15.0 seconds — PANEL 2: Same presenter shows exact cushion at waist height; face and whole integrated cushion visible. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Seat + back. One piece.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n15.0–23.0 seconds — PANEL 3: Same presenter sitting naturally on the cushion in the matching chair, face in three-quarter view. One simple action or gentle camera push-in only. On-screen text, verbatim: \"A cushion for his daily setup.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n23.0–30.0 seconds — PANEL 4: Same presenter beside the cushion on the matching seat, face clearly visible. One simple action or gentle camera push-in only. On-screen text, verbatim: \"2-pack: one for the rig, one for home. Link in bio.\". CTA stays visible through the final second.\n\nUse clean cuts between shots. No orange chapter cards, blank title screens, contact-sheet grid, panel numbers or timestamps in the final video. Keep exact English text as specified; final shot has ONE CTA: \"2-pack: one for the rig, one for home. Link in bio.\". No extra CTA, medical claims, invented testimonial, deep foam compression, fake product details, split cushions, extra characters or face changes. Ambient sound only; no dialogue or simulated customer review. Duration exactly 30.0 seconds; no loop beyond 30 seconds. If the selected renderer cannot output 30 seconds in one call, retain this single master prompt/timeline and render compatible clips for assembly; do not label a shorter clip as a 30-second video.",
+        "status": "DRAFT",
+        "reference": "assets/product/SEVOLRA-01.png"
+      },
+      "initial_qa": {
+        "status": "fail",
+        "source": "user_and_manual_review",
+        "summary": "Ảnh cũ đặt người trong cabin/cạnh ghế trống không hợp lý."
+      },
+      "qa": {
+        "status": "pass",
+        "summary": "Bốn khung đáp ứng bố cục Drive: khung 1/3/4 ngồi đúng ghế lái, khung 2 đứng ngoài xe. Hướng và tỷ lệ đệm nhất quán theo các mốc nhìn thấy; chữ đúng, hạ thấp và không che mặt hoặc sản phẩm.",
+        "panels": [
+          {
+            "number": 1,
+            "person_position": "seated_driver",
+            "layout_ok": true,
+            "face_visible": true,
+            "text_ok": true,
+            "reason": "Hông trên đệm ghế lái, chân trong khoang chân, vô lăng phía trước. Lưng đệm áp tựa ghế bên phải ảnh, phần đùi hướng về bảng lái bên trái; mép ghế xanh và độ dày đệm phù hợp khung 3/4. Chữ và nhãn 1, 0–7s đúng, không che sản phẩm.",
+            "product_orientation_ok": true,
+            "product_scale_ok": true,
+            "text_placement_ok": true
+          },
+          {
+            "number": 2,
+            "person_position": "outside_ground",
+            "layout_ok": true,
+            "face_visible": true,
+            "text_ok": true,
+            "reason": "Người đứng phía ngoài thân xe đỏ, trước ngưỡng cửa và bậc lên cabin; phần nền đất nhìn thấy hỗ trợ vị trí ngoài xe dù bàn chân bị cắt. Đệm cầm ngang eo, gần mặt phẳng thân, rộng xấp xỉ vai. Chữ nằm dưới đệm; nhãn 2, 7–15s và nội dung đúng.",
+            "product_orientation_ok": true,
+            "product_scale_ok": true,
+            "text_placement_ok": true
+          },
+          {
+            "number": 3,
+            "person_position": "seated_driver",
+            "layout_ok": true,
+            "face_visible": true,
+            "text_ok": true,
+            "reason": "Ngồi trên cùng ghế lái theo góc nghiêng, vô lăng phía trước và chân trong khoang lái. Đệm hướng dọc ghế, tựa phía sau thân; đáy xám và mép xanh nhất quán với khung 1/4. Chữ ở khoảng giữa thấp, không che mặt hay phần đệm thấy được; nhãn 3, 15–23s đúng.",
+            "product_orientation_ok": true,
+            "product_scale_ok": true,
+            "text_placement_ok": true
+          },
+          {
+            "number": 4,
+            "person_position": "seated_driver",
+            "layout_ok": true,
+            "face_visible": true,
+            "text_ok": true,
+            "reason": "Vẫn ngồi đúng ghế lái, vô lăng phía trước. Lưng đệm nằm sát tựa ghế gốc, đầu đệm hướng về bảng lái, không quay ra cửa. Độ dày đáy, vị trí phía sau và mép ghế xanh tương đồng khung 1/3. CTA nằm thấp dưới sản phẩm, không bị cắt; nhãn 4, 23–30s và chữ đúng.",
+            "product_orientation_ok": true,
+            "product_scale_ok": true,
+            "text_placement_ok": true
+          }
+        ],
+        "review_file": "generated/reviews/seated-v5-2-centre-1791982610963.json",
+        "checked_at": "2026-10-14T12:57:20.789Z"
+      },
+      "repaired_at": "2026-10-14T12:20:34.902Z",
+      "revisions": [
+        {
+          "image_url": "/generated/images/B-1791975828563-6z9qp-2-layout-v2.png",
+          "qa": {
+            "status": "pass",
+            "summary": "Bốn khung đáp ứng bố cục Drive: người đứng ngoài xe ở khung 1, 2, 4 và ngồi ghế lái ở khung 3. Mặt rõ, chữ đúng, số thứ tự và thời gian đầy đủ; không thấy mâu thuẫn hình học cabin.",
+            "panels": [
+              {
+                "number": 1,
+                "person_position": "outside_ground",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Người đứng trên mặt đường bên ngoài cửa, phía ngoài bậc lên xuống. Đệm nằm trên ghế gần cửa lái, hướng về vô-lăng và bảng điều khiển; ghế hành khách ở phía bên kia khoảng giữa. Chữ và mốc 0–7s đúng."
+              },
+              {
+                "number": 2,
+                "person_position": "outside_ground",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Người cầm đệm bên ngoài xe; thân xe đỏ, khung cửa và bậc nâng phía sau xác lập vị trí ngoài cabin dù bàn chân bị cắt khỏi ảnh. Hướng cabin nhất quán. Chữ và mốc 7–15s đúng."
+              },
+              {
+                "number": 3,
+                "person_position": "seated_driver",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Hông đặt trên phần ngồi của đệm ở ghế lái sát cửa, phần tựa đệm phía sau thân; chân trong khoang để chân. Vô-lăng và bảng điều khiển ở phía trước người. Chữ và mốc 15–23s đúng."
+              },
+              {
+                "number": 4,
+                "person_position": "outside_ground",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Người đứng ngoài cửa và bên ngoài các bậc lên xuống; phần chân bị cắt không làm vị trí trở nên mơ hồ. Đệm ở ghế lái gần cửa, hướng về phía vô-lăng. CTA đầy đủ và mốc 23–30s đúng."
+              }
+            ],
+            "review_file": "generated/reviews/corrected-drive-layout-2-1791980180675.json",
+            "checked_at": "2026-10-14T12:16:50.936Z"
+          },
+          "story": {
+            "layout": {
+              "id": "US-LEFT-HAND-DRIVE-01",
+              "reference": "assets/environments/DRIVE-CAB-01.png",
+              "driver_seat": "front-left",
+              "passenger_seat": "front-right",
+              "steering_wheel": "dashboard directly ahead of front-left driver seat",
+              "camera": "outside the open front-left driver door, on asphalt; look diagonally forward into the front cab",
+              "rules": "LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames."
+            },
+            "kb": "KB-01",
+            "page": "Drive",
+            "cap": "CAP-0103",
+            "goal": "chuyển đổi",
+            "cta": "2-pack: one for the rig, one for home. Link in bio.",
+            "duration": 30,
+            "character": {
+              "id": "DRIVE-01",
+              "name": "Mike · Drive",
+              "image": "assets/characters/DRIVE-01.png",
+              "description": "the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face"
+            },
+            "variation": 1,
+            "frames": [
+              {
+                "person_position": "outside_ground",
+                "product_position": "installed_driver_seat",
+                "camera_position": "outside_left_driver_door",
+                "action": "Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT inside the cab, directly behind its steering wheel. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.",
+                "feature": "Your everyday seat. Upgraded.",
+                "number": 1,
+                "start": 0,
+                "end": 7,
+                "text": "Your everyday seat. Upgraded.",
+                "cta": false,
+                "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+              },
+              {
+                "person_position": "outside_ground",
+                "product_position": "held_outside",
+                "camera_position": "outside_left_driver_door",
+                "action": "Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, with both shoes grounded. He holds the exact Sevolra cushion at waist height, with his face above it. The door frame, raised entry steps and empty front-left driver seat are behind him. The seat is physically INSIDE the cab; Mike is physically OUTSIDE. Do not show him standing in the cabin or between seats.",
+                "feature": "Seat + back. One piece.",
+                "number": 2,
+                "start": 7,
+                "end": 15,
+                "text": "Seat + back. One piece.",
+                "cta": false,
+                "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+              },
+              {
+                "person_position": "seated_driver",
+                "product_position": "installed_driver_seat",
+                "camera_position": "outside_left_driver_door",
+                "action": "From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab.",
+                "feature": "A cushion for his daily setup.",
+                "number": 3,
+                "start": 15,
+                "end": 23,
+                "text": "A cushion for his daily setup.",
+                "cta": false,
+                "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+              },
+              {
+                "person_position": "outside_ground",
+                "product_position": "installed_driver_seat",
+                "camera_position": "outside_left_driver_door",
+                "action": "Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT inside the cab, directly behind its steering wheel. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.",
+                "feature": "A practical gift.",
+                "number": 4,
+                "start": 23,
+                "end": 30,
+                "text": "2-pack: one for the rig, one for home. Link in bio.",
+                "cta": true,
+                "overlay": "Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear."
+              }
+            ],
+            "caption": "For the driver who already has enough mugs. 🎁\nSeat + lumbar support in one piece.\n2-pack: one for the rig, one for home. Link in bio.",
+            "hashtags": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport",
+            "storyboard_prompt": "Create ONE finished storyboard IMAGE for ONE 30-second vertical video. Exactly FOUR photographic panels in a 2-column by 2-row grid, reading left-to-right then top-to-bottom. No empty panels, no chapter cards, no orange blocks. Label each panel visibly 1, 2, 3, 4 at upper left, with its time interval. Each panel shows a real scene plus the EXACT text below, not just a text card. Include only ONE character throughout: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face; match the attached face reference exactly. Show the character's unobstructed face in all four panels. Keep the entire head, forehead and both eyes clear. Reserve at least 20% clean space above the head for text; move text to a clear lower area if necessary, never over a face. Setting: the same red parked American left-hand-drive truck, open front-left driver door, navy fabric front-left driver seat; presenter stands OUTSIDE on asphalt except frame 3 seated in the driver seat. Variation: warm afternoon daylight, camera anchored outside the same left driver door. Product: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads; use attached official product reference, preserve its silhouette and materials.\n\nMANDATORY PHYSICAL LAYOUT: LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames.\nCamera anchor: outside the open front-left driver door, on asphalt; look diagonally forward into the front cab\n\nPANEL 1, 0–7s: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT inside the cab, directly behind its steering wheel. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.\nVisible on-screen text (verbatim): \"Your everyday seat. Upgraded.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 2, 7–15s: Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, with both shoes grounded. He holds the exact Sevolra cushion at waist height, with his face above it. The door frame, raised entry steps and empty front-left driver seat are behind him. The seat is physically INSIDE the cab; Mike is physically OUTSIDE. Do not show him standing in the cabin or between seats.\nVisible on-screen text (verbatim): \"Seat + back. One piece.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 3, 15–23s: From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab.\nVisible on-screen text (verbatim): \"A cushion for his daily setup.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPANEL 4, 23–30s: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT inside the cab, directly behind its steering wheel. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.\nVisible on-screen text (verbatim): \"2-pack: one for the rig, one for home. Link in bio.\". Top-center, white bold text on a dark translucent rounded box; CTA bottom-center in panel 4. Keep face and product clear.\n\nPhotorealistic UGC, ordinary natural expression and skin, same face, same clothes, same setting throughout. Every panel must contain a visible photographic scene. Text is part of this finished storyboard and must be readable, correctly spelled, and not cover the face, lumbar ribs or cutout. No wife, gift recipient, extra cast, extra hands, medical spine glow, invented accessories, fake endorsements, treatment before/after, invented underside or removed-cover proof. The panel numbers and timings are guide annotations, not final video text. Total timeline is exactly 30 seconds.",
+            "video_prompt": "Create ONE complete 30-second vertical 9:16 product-demo video (1080×1920, 30fps) from the attached FOUR-panel Sevolra storyboard. Use the sheet as a shot guide; do NOT animate the whole grid or show the four panels simultaneously. Read panels 1→2→3→4 in order, and render each as a full-screen sequential shot.\n\nIDENTITY: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face. Only this character; keep the same unobstructed face and outfit throughout.\nPRODUCT: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads. Preserve attached official reference exactly.\nSETTING: the same red parked American left-hand-drive truck, open front-left driver door, navy fabric front-left driver seat; presenter stands OUTSIDE on asphalt except frame 3 seated in the driver seat. warm afternoon daylight, camera anchored outside the same left driver door. Truck remains parked.\n\nMANDATORY PHYSICAL LAYOUT: LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames.\nCamera anchor: outside the open front-left driver door, on asphalt; look diagonally forward into the front cab\n\nEXACT 30-SECOND TIMELINE:\n0.0–7.0 seconds — PANEL 1: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT inside the cab, directly behind its steering wheel. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Your everyday seat. Upgraded.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n7.0–15.0 seconds — PANEL 2: Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, with both shoes grounded. He holds the exact Sevolra cushion at waist height, with his face above it. The door frame, raised entry steps and empty front-left driver seat are behind him. The seat is physically INSIDE the cab; Mike is physically OUTSIDE. Do not show him standing in the cabin or between seats. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Seat + back. One piece.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n15.0–23.0 seconds — PANEL 3: From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. One simple action or gentle camera push-in only. On-screen text, verbatim: \"A cushion for his daily setup.\". Match readable text placement in the reference panel; do not obscure face or cushion.\n23.0–30.0 seconds — PANEL 4: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT inside the cab, directly behind its steering wheel. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat. One simple action or gentle camera push-in only. On-screen text, verbatim: \"2-pack: one for the rig, one for home. Link in bio.\". CTA stays visible through the final second.\n\nUse clean cuts between shots. No orange chapter cards, blank title screens, contact-sheet grid, panel numbers or timestamps in the final video. Keep exact English text as specified; final shot has ONE CTA: \"2-pack: one for the rig, one for home. Link in bio.\". No extra CTA, medical claims, invented testimonial, deep foam compression, fake product details, split cushions, extra characters or face changes. Ambient sound only; no dialogue or simulated customer review. Duration exactly 30.0 seconds; no loop beyond 30 seconds. If the selected renderer cannot output 30 seconds in one call, retain this single master prompt/timeline and render compatible clips for assembly; do not label a shorter clip as a 30-second video.",
+            "status": "DRAFT",
+            "reference": "assets/product/SEVOLRA-01.png"
+          }
+        },
+        {
+          "image_url": "/generated/images/B-1791975828563-6z9qp-2-product-v4.png",
+          "qa": {
+            "status": "pass",
+            "summary": "Bốn khung đáp ứng bố trí Drive: người đứng ngoài xe ở khung 1/2/4 và ngồi ghế lái ở khung 3. Hướng, tỷ lệ đệm và vị trí chữ nhất quán theo các mốc nhìn thấy.",
+            "panels": [
+              {
+                "number": 1,
+                "person_position": "outside_ground",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Người đứng ngoài cửa, thấp hơn bậc lên xe. Đệm trên ghế gần cửa; lưng đệm áp tựa xanh bên phải, phần đùi hướng trái về vô lăng. Còn viền ghế xanh; chữ đúng và nằm thấp, không che mặt hay đệm.",
+                "product_orientation_ok": true,
+                "product_scale_ok": true,
+                "text_placement_ok": true
+              },
+              {
+                "number": 2,
+                "person_position": "outside_ground",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Thân người nằm ngoài khung cửa và phía trước bậc xe. Đệm cầm ngang eo, rộng xấp xỉ vai, không có dấu hiệu phóng đại do đưa sát máy. Chữ đúng, nằm dưới sản phẩm; mặt rõ.",
+                "product_orientation_ok": true,
+                "product_scale_ok": true,
+                "text_placement_ok": true
+              },
+              {
+                "number": 3,
+                "person_position": "seated_driver",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Hông đặt trên đệm ghế lái, lưng đệm phía sau thân, chân trong khoang để chân và vô lăng phía trước. Phần đế xám, mép ghế xanh và vị trí lưng đệm phù hợp các khung ghế trống; không thấy đệm phình lớn. Chữ đúng, ở khoảng giữa dưới, không che mặt.",
+                "product_orientation_ok": true,
+                "product_scale_ok": true,
+                "text_placement_ok": true
+              },
+              {
+                "number": 4,
+                "person_position": "outside_ground",
+                "layout_ok": true,
+                "face_visible": true,
+                "text_ok": true,
+                "reason": "Người đứng ngoài thân xe, cạnh bậc lên cabin. Đệm có lưng phía phải sát tựa ghế, đầu đùi hướng trái về bảng điều khiển; góc nhìn xiên và tỷ lệ tương ứng khung 1. CTA đúng, đặt thấp và tách khỏi mặt, sản phẩm.",
+                "product_orientation_ok": true,
+                "product_scale_ok": true,
+                "text_placement_ok": true
+              }
+            ],
+            "review_file": "generated/reviews/product-v4-2-1791981770685.json",
+            "checked_at": "2026-10-14T12:43:23.927Z"
+          },
+          "story": {
+            "layout": {
+              "id": "US-LEFT-HAND-DRIVE-01",
+              "reference": "assets/environments/DRIVE-CAB-01.png",
+              "driver_seat": "front-left",
+              "passenger_seat": "front-right",
+              "steering_wheel": "dashboard directly ahead of front-left driver seat",
+              "product_dimensions_cm": {
+                "width": 44,
+                "depth": 40,
+                "height": 37
+              },
+              "staging_seat_cm": {
+                "width": 55,
+                "depth": 50
+              },
+              "product_to_seat_ratio": {
+                "width": 0.8,
+                "depth": 0.8
+              },
+              "product_axis": "same longitudinal axis as driver seat; front toward dashboard, rear lumbar against seat backrest",
+              "camera": "outside the open front-left driver door, on asphalt; look diagonally forward into the front cab",
+              "rules": "PRODUCT DIRECTION AND SCALE LOCK: product44cm wide x40cm deep x37cm high, never changes physical size. This staging uses the same55cm wide x50cm deep driver seat as ruler: cushion width80% and depth80% of that seat, visible blue fabric margins. These are staging dimensions, not a manufacturer claim about every truck. Installed cushion lumbar REAR sits flush against original blue seat BACKREST (vehicle REAR, image RIGHT in the outside-left-door view); its FRONT thigh lobes point toward dashboard/steering wheel (vehicle FRONT, image LEFT). Its longitudinal axis is parallel to the driver seat, NEVER perpendicular and NEVER toward the open door/camera. Show side/oblique profile from this camera; do not rotate the product for a frontal beauty view. Empty-seat panels1/4 and occupied panel3 share identical seat-plane footprint, rear contact, front edge and side margins after accounting for perspective/occlusion. No growth in width, depth, thickness or lumbar height when occupied. Lumbar top reaches lower back below shoulder blades, not headrest. Held cushion panel2 remains44cm wide, roughly presenter shoulder width, at waist in the torso plane, not closer to lens to appear huge. LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames."
+            },
+            "kb": "KB-01",
+            "page": "Drive",
+            "cap": "CAP-0103",
+            "goal": "chuyển đổi",
+            "cta": "2-pack: one for the rig, one for home. Link in bio.",
+            "duration": 30,
+            "character": {
+              "id": "DRIVE-01",
+              "name": "Mike · Drive",
+              "image": "assets/characters/DRIVE-01.png",
+              "description": "the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face"
+            },
+            "variation": 1,
+            "frames": [
+              {
+                "person_position": "outside_ground",
+                "product_position": "installed_driver_seat",
+                "product_axis": "seat_forward",
+                "product_scale": "44x40x37cm-fixed",
+                "camera_position": "outside_left_driver_door",
+                "action": "Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT. Its rear lumbar surface contacts the original seat BACKREST on image RIGHT; its front lobes point LEFT toward dashboard/wheel, NEVER outward at the open door. Match the seat longitudinal axis; show SIDE PROFILE. Exact44x40x37cm size,80% of same blue seat width/depth, matching occupied panel3 footprint. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.",
+                "feature": "Your everyday seat. Upgraded.",
+                "number": 1,
+                "start": 0,
+                "end": 7,
+                "text": "Your everyday seat. Upgraded.",
+                "cta": false,
+                "overlay": "Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines."
+              },
+              {
+                "person_position": "outside_ground",
+                "product_position": "held_outside",
+                "product_axis": "held_front_view",
+                "product_scale": "44x40x37cm-fixed",
+                "camera_position": "outside_left_driver_door",
+                "action": "Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, with both shoes grounded. He holds the exact44cm-wide Sevolra cushion at waist height in the torso plane, about his shoulder width, NOT closer to lens and NOT oversized, with his face above it. The door frame, raised entry steps and empty front-left driver seat are behind him. The seat is physically INSIDE the cab; Mike is physically OUTSIDE. Do not show him standing in the cabin or between seats.",
+                "feature": "Seat + back. One piece.",
+                "number": 2,
+                "start": 7,
+                "end": 15,
+                "text": "Seat + back. One piece.",
+                "cta": false,
+                "overlay": "Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines."
+              },
+              {
+                "person_position": "seated_driver",
+                "product_position": "installed_driver_seat",
+                "product_axis": "seat_forward",
+                "product_scale": "44x40x37cm-fixed",
+                "camera_position": "outside_left_driver_door",
+                "action": "Use the IDENTICAL installed44x40x37cm cushion footprint and orientation as panels1/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab.",
+                "feature": "A cushion for his daily setup.",
+                "number": 3,
+                "start": 15,
+                "end": 23,
+                "text": "A cushion for his daily setup.",
+                "cta": false,
+                "overlay": "Headline lower than top quarter,48–62% of panel height, on clear plain-shirt/background below face and above cushion/thighs. Avoid face, hands, wheel and product. White bold type on dark translucent box,8% side insets, max3 lines."
+              },
+              {
+                "person_position": "outside_ground",
+                "product_position": "installed_driver_seat",
+                "product_axis": "seat_forward",
+                "product_scale": "44x40x37cm-fixed",
+                "camera_position": "outside_left_driver_door",
+                "action": "Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT. Its rear lumbar surface contacts the original seat BACKREST on image RIGHT; its front lobes point LEFT toward dashboard/wheel, NEVER outward at the open door. Match the seat longitudinal axis; show SIDE PROFILE. Exact44x40x37cm size,80% of same blue seat width/depth, matching occupied panel3 footprint. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.",
+                "feature": "A practical gift.",
+                "number": 4,
+                "start": 23,
+                "end": 30,
+                "text": "2-pack: one for the rig, one for home. Link in bio.",
+                "cta": true,
+                "overlay": "Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines."
+              }
+            ],
+            "caption": "For the driver who already has enough mugs. 🎁\nSeat + lumbar support in one piece.\n2-pack: one for the rig, one for home. Link in bio.",
+            "hashtags": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport",
+            "storyboard_prompt": "Create ONE finished storyboard IMAGE for ONE 30-second vertical video. Exactly FOUR photographic panels in a 2-column by 2-row grid, reading left-to-right then top-to-bottom. No empty panels, no chapter cards, no orange blocks. Label each panel visibly 1, 2, 3, 4 at upper left, with its time interval. Each panel shows a real scene plus the EXACT text below, not just a text card. Include only ONE character throughout: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face; match the attached face reference exactly. Show the character's unobstructed face in all four panels. Keep the entire head, forehead and both eyes clear. Do NOT put headline boxes in the top25% of panels. Reserve lower-middle negative space for the readable captions per panel. Numbers/timings alone remain at top left. Never place text over a face or product. Setting: the same red parked American left-hand-drive truck, open front-left driver door, navy fabric front-left driver seat; presenter stands OUTSIDE on asphalt except frame 3 seated in the driver seat. Variation: warm afternoon daylight, camera anchored outside the same left driver door. Product: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads; use attached official product reference, preserve its silhouette and materials.\n\nMANDATORY PHYSICAL LAYOUT: PRODUCT DIRECTION AND SCALE LOCK: product44cm wide x40cm deep x37cm high, never changes physical size. This staging uses the same55cm wide x50cm deep driver seat as ruler: cushion width80% and depth80% of that seat, visible blue fabric margins. These are staging dimensions, not a manufacturer claim about every truck. Installed cushion lumbar REAR sits flush against original blue seat BACKREST (vehicle REAR, image RIGHT in the outside-left-door view); its FRONT thigh lobes point toward dashboard/steering wheel (vehicle FRONT, image LEFT). Its longitudinal axis is parallel to the driver seat, NEVER perpendicular and NEVER toward the open door/camera. Show side/oblique profile from this camera; do not rotate the product for a frontal beauty view. Empty-seat panels1/4 and occupied panel3 share identical seat-plane footprint, rear contact, front edge and side margins after accounting for perspective/occlusion. No growth in width, depth, thickness or lumbar height when occupied. Lumbar top reaches lower back below shoulder blades, not headrest. Held cushion panel2 remains44cm wide, roughly presenter shoulder width, at waist in the torso plane, not closer to lens to appear huge. LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames.\nCamera anchor: outside the open front-left driver door, on asphalt; look diagonally forward into the front cab\n\nPANEL 1, 0–7s: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT. Its rear lumbar surface contacts the original seat BACKREST on image RIGHT; its front lobes point LEFT toward dashboard/wheel, NEVER outward at the open door. Match the seat longitudinal axis; show SIDE PROFILE. Exact44x40x37cm size,80% of same blue seat width/depth, matching occupied panel3 footprint. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.\nVisible on-screen text (verbatim): \"Your everyday seat. Upgraded.\". Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines.\n\nPANEL 2, 7–15s: Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, with both shoes grounded. He holds the exact44cm-wide Sevolra cushion at waist height in the torso plane, about his shoulder width, NOT closer to lens and NOT oversized, with his face above it. The door frame, raised entry steps and empty front-left driver seat are behind him. The seat is physically INSIDE the cab; Mike is physically OUTSIDE. Do not show him standing in the cabin or between seats.\nVisible on-screen text (verbatim): \"Seat + back. One piece.\". Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines.\n\nPANEL 3, 15–23s: Use the IDENTICAL installed44x40x37cm cushion footprint and orientation as panels1/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab.\nVisible on-screen text (verbatim): \"A cushion for his daily setup.\". Headline lower than top quarter,48–62% of panel height, on clear plain-shirt/background below face and above cushion/thighs. Avoid face, hands, wheel and product. White bold type on dark translucent box,8% side insets, max3 lines.\n\nPANEL 4, 23–30s: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT. Its rear lumbar surface contacts the original seat BACKREST on image RIGHT; its front lobes point LEFT toward dashboard/wheel, NEVER outward at the open door. Match the seat longitudinal axis; show SIDE PROFILE. Exact44x40x37cm size,80% of same blue seat width/depth, matching occupied panel3 footprint. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat.\nVisible on-screen text (verbatim): \"2-pack: one for the rig, one for home. Link in bio.\". Headline/CTA at68–82% of panel height, inset8% from left/right, over empty lower clothing/background. Never top quarter or tight to bottom edge; do not cover face or product. White bold type on dark translucent box, max3 lines.\n\nPhotorealistic UGC, ordinary natural expression and skin, same face, same clothes, same setting throughout. Every panel must contain a visible photographic scene. Text is part of this finished storyboard and must be readable, correctly spelled, and not cover the face, lumbar ribs or cutout. No wife, gift recipient, extra cast, extra hands, medical spine glow, invented accessories, fake endorsements, treatment before/after, invented underside or removed-cover proof. The panel numbers and timings are guide annotations, not final video text. Total timeline is exactly 30 seconds.",
+            "video_prompt": "Create ONE complete 30-second vertical 9:16 product-demo video (1080×1920, 30fps) from the attached FOUR-panel Sevolra storyboard. Use the sheet as a shot guide; do NOT animate the whole grid or show the four panels simultaneously. Read panels 1→2→3→4 in order, and render each as a full-screen sequential shot.\n\nIDENTITY: the exact 48-year-old male truck driver in the attached DRIVE-01 portrait, salt-and-pepper short beard, navy work shirt, tan baseball cap, unobstructed face. Only this character; keep the same unobstructed face and outfit throughout.\nPRODUCT: the exact official Sevolra cushion: integrated molded seat and tall curved lumbar back in ONE piece, black face, grey outer edge, vertical lumbar ribs, deep tailbone cutout, contoured double-front thigh lobes; never separate pads. Preserve attached official reference exactly.\nSETTING: the same red parked American left-hand-drive truck, open front-left driver door, navy fabric front-left driver seat; presenter stands OUTSIDE on asphalt except frame 3 seated in the driver seat. warm afternoon daylight, camera anchored outside the same left driver door. Truck remains parked.\n\nMANDATORY PHYSICAL LAYOUT: PRODUCT DIRECTION AND SCALE LOCK: product44cm wide x40cm deep x37cm high, never changes physical size. This staging uses the same55cm wide x50cm deep driver seat as ruler: cushion width80% and depth80% of that seat, visible blue fabric margins. These are staging dimensions, not a manufacturer claim about every truck. Installed cushion lumbar REAR sits flush against original blue seat BACKREST (vehicle REAR, image RIGHT in the outside-left-door view); its FRONT thigh lobes point toward dashboard/steering wheel (vehicle FRONT, image LEFT). Its longitudinal axis is parallel to the driver seat, NEVER perpendicular and NEVER toward the open door/camera. Show side/oblique profile from this camera; do not rotate the product for a frontal beauty view. Empty-seat panels1/4 and occupied panel3 share identical seat-plane footprint, rear contact, front edge and side margins after accounting for perspective/occlusion. No growth in width, depth, thickness or lumbar height when occupied. Lumbar top reaches lower back below shoulder blades, not headrest. Held cushion panel2 remains44cm wide, roughly presenter shoulder width, at waist in the torso plane, not closer to lens to appear huge. LEFT and RIGHT are VEHICLE coordinates, not the left/right edges of the photo. Exactly two front seats side-by-side, both facing the dashboard/windshield. The front-left DRIVER seat is nearest the open left door; its steering wheel is mounted to the dashboard directly AHEAD of it. The front-right PASSENGER seat is across the narrow centre gap, with no steering wheel. No standing presenter in the front cabin, no presenter between seats, no presenter sitting on the passenger seat or cabin floor. Never put the product on the passenger seat while implying it is the driving seat. A cushion on the driver seat must face forward toward its steering wheel. Driver seated on cushion: hips on its seat portion, attached lumbar behind his torso, feet in the driver footwell; wheel in front of his chest. Standing presenter: both feet on the outside asphalt, body entirely OUTSIDE the doorway, not on the entry steps and not halfway inside. Include door frame and raised entry steps as spatial anchors. Keep the same red truck, seats, dashboard, open driver door and vehicle orientation in all frames.\nCamera anchor: outside the open front-left driver door, on asphalt; look diagonally forward into the front cab\n\nEXACT 30-SECOND TIMELINE:\n0.0–7.0 seconds — PANEL 1: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT. Its rear lumbar surface contacts the original seat BACKREST on image RIGHT; its front lobes point LEFT toward dashboard/wheel, NEVER outward at the open door. Match the seat longitudinal axis; show SIDE PROFILE. Exact44x40x37cm size,80% of same blue seat width/depth, matching occupied panel3 footprint. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Your everyday seat. Upgraded.\". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.\n7.0–15.0 seconds — PANEL 2: Mike stands completely OUTSIDE on the asphalt next to the open LEFT driver door, with both shoes grounded. He holds the exact44cm-wide Sevolra cushion at waist height in the torso plane, about his shoulder width, NOT closer to lens and NOT oversized, with his face above it. The door frame, raised entry steps and empty front-left driver seat are behind him. The seat is physically INSIDE the cab; Mike is physically OUTSIDE. Do not show him standing in the cabin or between seats. One simple action or gentle camera push-in only. On-screen text, verbatim: \"Seat + back. One piece.\". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.\n15.0–23.0 seconds — PANEL 3: Use the IDENTICAL installed44x40x37cm cushion footprint and orientation as panels1/4, with80% seat-width coverage and blue side margins. No cushion growth when occupied. From OUTSIDE the open LEFT driver door, show Mike seated normally on the Sevolra cushion installed on the FRONT-LEFT DRIVER SEAT, facing FORWARD. His hips are on the cushion seat, lumbar support behind his lower back, feet inside the driver footwell. The steering wheel and dashboard are clearly visible directly AHEAD of his chest. He turns his face slightly toward the outside camera without rotating the seat. No second person or standing body inside the cab. One simple action or gentle camera push-in only. On-screen text, verbatim: \"A cushion for his daily setup.\". Match the LOWERED readable text placement in the reference panel; never the top quarter. Do not obscure face or cushion.\n23.0–30.0 seconds — PANEL 4: Mike stands completely OUTSIDE on the asphalt beside the open LEFT driver door, both shoes grounded, body clear of the doorway. The Sevolra cushion is installed on the empty FRONT-LEFT DRIVER SEAT. Its rear lumbar surface contacts the original seat BACKREST on image RIGHT; its front lobes point LEFT toward dashboard/wheel, NEVER outward at the open door. Match the seat longitudinal axis; show SIDE PROFILE. Exact44x40x37cm size,80% of same blue seat width/depth, matching occupied panel3 footprint. Show the open door frame and raised entry steps to separate the outside ground from the cabin floor. Mike presents the setup from OUTSIDE, with a simple open-palm gesture; he never occupies the neighbouring passenger seat. One simple action or gentle camera push-in only. On-screen text, verbatim: \"2-pack: one for the rig, one for home. Link in bio.\". CTA in lower middle68–82% of frame height stays visible through the final second, not at the top or extreme bottom.\n\nUse clean cuts between shots. No orange chapter cards, blank title screens, contact-sheet grid, panel numbers or timestamps in the final video. Keep exact English text as specified; final shot has ONE CTA: \"2-pack: one for the rig, one for home. Link in bio.\". No extra CTA, medical claims, invented testimonial, deep foam compression, fake product details, split cushions, extra characters or face changes. Ambient sound only; no dialogue or simulated customer review. Duration exactly 30.0 seconds; no loop beyond 30 seconds. If the selected renderer cannot output 30 seconds in one call, retain this single master prompt/timeline and render compatible clips for assembly; do not label a shorter clip as a 30-second video.",
+            "status": "DRAFT",
+            "reference": "assets/product/SEVOLRA-01.png"
+          }
+        }
+      ]
+    }
+  ],
+  "finished_at": "2026-10-14T11:04:58.252Z",
+  "updated_at": "2026-10-14T12:20:34.902Z"
+}

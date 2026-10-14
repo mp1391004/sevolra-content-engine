@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "summary": "Bốn khung đáp ứng bố cục Drive: người đứng ngoài xe ở khung 1, 2, 4 và ngồi ghế lái ở khung 3. Mặt rõ, chữ đúng, số thứ tự và thời gian đầy đủ; không thấy mâu thuẫn hình học cabin.",
+  "panels": [
+    {
+      "number": 1,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người đứng trên mặt đường bên ngoài cửa, phía ngoài bậc lên xuống. Đệm nằm trên ghế gần cửa lái, hướng về vô-lăng và bảng điều khiển; ghế hành khách ở phía bên kia khoảng giữa. Chữ và mốc 0–7s đúng."
+    },
+    {
+      "number": 2,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người cầm đệm bên ngoài xe; thân xe đỏ, khung cửa và bậc nâng phía sau xác lập vị trí ngoài cabin dù bàn chân bị cắt khỏi ảnh. Hướng cabin nhất quán. Chữ và mốc 7–15s đúng."
+    },
+    {
+      "number": 3,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Hông đặt trên phần ngồi của đệm ở ghế lái sát cửa, phần tựa đệm phía sau thân; chân trong khoang để chân. Vô-lăng và bảng điều khiển ở phía trước người. Chữ và mốc 15–23s đúng."
+    },
+    {
+      "number": 4,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người đứng ngoài cửa và bên ngoài các bậc lên xuống; phần chân bị cắt không làm vị trí trở nên mơ hồ. Đệm ở ghế lái gần cửa, hướng về phía vô-lăng. CTA đầy đủ và mốc 23–30s đúng."
+    }
+  ],
+  "review_file": "generated/reviews/corrected-drive-layout-2-1791980180675.json",
+  "checked_at": "2026-10-14T12:16:50.936Z"
+}

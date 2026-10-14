@@ -1,0 +1,1587 @@
+{
+  "product": {
+    "name": "Sevolra™ Orthopedic Cushion",
+    "construction": "Seat + lumbar support in one piece; vertical lumbar ribs; tailbone cutout; raised seat edges",
+    "material": "Memory foam",
+    "features": [
+      "Anti-slip base",
+      "Removable, machine-washable cover"
+    ],
+    "size": "17.3 × 15.7 × 14.6 in",
+    "weight": "~2.4 lb",
+    "offer": {
+      "single": 64.95,
+      "two_pack": 99.9,
+      "four_pack": 165.8,
+      "reference_price": 129.9,
+      "shipping": "Free shipping",
+      "guarantee": "60-day money-back guarantee",
+      "deadline": null
+    },
+    "reference": "assets/product/SEVOLRA-01.png",
+    "source": "https://sevolra.com/products/sevolra-orthopedic-cushion",
+    "verified_at": "2026-10-14",
+    "offer_notes": "Single price verified live; bundle, shipping and guarantee from project context. Recheck before publishing."
+  },
+  "concepts": [
+    {
+      "id": "KB-01",
+      "title": "3 dấu hiệu nên xem lại setup ghế xe (POV quà tặng)",
+      "pages": [
+        "Drive"
+      ],
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "visual": "Tài xế trên ghế cabin đỗ xe; minh họa cấu trúc ghế trung tính, không cột sống đỏ hoặc chẩn đoán.",
+          "text": "3 SIGNS HIS SEAT NEEDS AN UPGRADE",
+          "audio": "Three things to notice during a long driving shift.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Driver seated in parked truck cabin; neutral seat support diagram, no spine or medical glow.",
+          "show_product": false,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 3.0,
+          "end": 5.0,
+          "visual": "Thẻ chương trên nền cam",
+          "text": "SIGN 1",
+          "audio": "—",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Plain orange chapter background.",
+          "show_product": false,
+          "scene_kind": "chapter_card"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "visual": "Tài xế trong cabin hơi nghiêng về vô lăng; không lớp đau/X-ray.",
+          "text": "Leaning forward again?",
+          "audio": "Notice how often he changes his sitting position.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Driver gently leaning toward steering wheel in parked cab.",
+          "show_product": false,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 11.0,
+          "end": 16.0,
+          "visual": "Vợ và chồng trò chuyện ở bàn bếp, không hóa đơn y tế hay biểu hiện kết quả chữa bệnh.",
+          "text": "Time for a seat check",
+          "audio": "Start with a closer look at the seat setup.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Wife and husband in a quiet kitchen conversation, no medical bills.",
+          "show_product": false,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 16.0,
+          "end": 18.0,
+          "visual": "Thẻ chương",
+          "text": "SIGN 2",
+          "audio": "—",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Plain orange chapter background.",
+          "show_product": false,
+          "scene_kind": "chapter_card"
+        },
+        {
+          "start": 18.0,
+          "end": 24.0,
+          "visual": "Tài xế đứng cạnh cửa cabin đỗ xe, không phóng đại dáng đau.",
+          "text": "Another long shift",
+          "audio": "Long shifts mean a lot of time in the same seat.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Driver standing beside open parked truck cabin door.",
+          "show_product": false,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 24.0,
+          "end": 26.0,
+          "visual": "Thẻ chương",
+          "text": "SIGN 3",
+          "audio": "—",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Plain orange chapter background.",
+          "show_product": false,
+          "scene_kind": "chapter_card"
+        },
+        {
+          "start": 26.0,
+          "end": 32.0,
+          "visual": "Minh họa ghế tĩnh, không ngụ ý ghế gây tổn thương.",
+          "text": "A closer look at the seat",
+          "audio": "Check the seat and lower-back support.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Close view of an ordinary truck seat.",
+          "show_product": false,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 32.0,
+          "end": 38.0,
+          "visual": "Cận cảnh đệm Sevolra trên ghế xe; minh họa chỉ vị trí rãnh xương cụt và tựa lưng, không chuyển màu áp lực.",
+          "text": "SEAT + BACK. ONE PIECE.",
+          "audio": "Sevolra combines seat and lumbar support in one piece.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Exact Sevolra cushion on truck seat with ribs and cutout clearly visible.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 38.0,
+          "end": 44.0,
+          "visual": "Vợ trao đệm liền khối ở cửa cabin; insert ảnh thật đệm đứng trên ghế, không hộp quà chưa xác nhận.",
+          "text": "Stays put. Cover goes in the wash.",
+          "audio": "It stays put, and the cover goes right in the wash.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "HYBRID",
+          "visual_en": "Wife presenting exact Sevolra cushion beside open cab door, simple grip under seat.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 44.0,
+          "end": 52.0,
+          "visual": "Tài xế ngồi trong cabin đang đỗ, tựa lưng, nét mặt trung tính.",
+          "text": "A GIFT FOR HIS DAILY DRIVE",
+          "audio": "A practical gift for the seat he uses every day.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Driver seated in parked truck with exact cushion behind torso and underneath hips, neutral face.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 52.0,
+          "end": 58.0,
+          "visual": "Đệm Sevolra trên nền trung tính; không thêm phụ kiện chưa xác nhận.",
+          "text": "2-PACK $99.90 · LINK IN BIO",
+          "audio": "See the two-pack. Link in bio.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Two exact Sevolra cushions on neutral studio background.",
+          "show_product": true,
+          "scene_kind": "scene"
+        }
+      ],
+      "source_title": "3 dấu hiệu ghế xe đang phá lưng chồng bạn",
+      "cta_placement": "end_card"
+    },
+    {
+      "id": "KB-02",
+      "title": "The pain in my a**… · seat setup",
+      "pages": [
+        "Drive"
+      ],
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "visual": "Tài xế AI (áo phản quang, mũ lưỡi trai) cầm đệm Sevolra đi tới cửa cabin",
+          "text": "The pain in my a**…",
+          "audio": "Tiếng xe, gió (không thoại)",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Driver carrying exact Sevolra cushion toward open parked cabin door.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 3.0,
+          "end": 7.0,
+          "visual": "Đặt đệm lên ghế tài xế (một động tác)",
+          "text": "The pain in my a**…",
+          "audio": "—",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "One simple placement of the cushion onto truck seat.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 7.0,
+          "end": 11.0,
+          "visual": "Camera tiến chậm vào đệm trên ghế, ánh sáng đẹp (không tay)",
+          "text": "The pain in my a**…",
+          "audio": "—",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Cushion stationary on truck seat, slow camera push-in.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 11.0,
+          "end": 16.0,
+          "visual": "Anh ngồi xuống, tựa lưng, thở phào (cận mặt hoặc quay sau lưng)",
+          "text": "The pain in my a**…",
+          "audio": "Tiếng thở ra \"ahh\"",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Driver sitting on cushion and leaning gently onto its attached back.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 16.0,
+          "end": 22.0,
+          "visual": "Góc rộng, xe tải chạy trên xa lộ lúc hoàng hôn",
+          "text": "The pain in my a**…",
+          "audio": "—",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Exterior truck on highway at sunset; no additional product interaction.",
+          "show_product": false,
+          "scene_kind": "scene"
+        }
+      ],
+      "source_title": "\"The pain in my a**…\"",
+      "cta_placement": "caption_only"
+    },
+    {
+      "id": "KB-03",
+      "title": "Seat + Back Support In One?!",
+      "pages": [
+        "Desk"
+      ],
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "visual": "Rack focus mờ → rõ, đệm trên ghế văn phòng lưới",
+          "text": "Seat + Back Support In One?!",
+          "audio": "Seat and back support, together in one cushion.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Exact Sevolra cushion on mesh office chair, soft rack focus.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 3.0,
+          "end": 8.0,
+          "visual": "Orbit chậm tối đa 30° quanh đệm trên ghế lưới, giữ gân lưng và rãnh xương cụt ổn định.",
+          "text": "Seat + Back Support In One?!",
+          "audio": "Seat and back support in one piece.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Same cushion on same chair, slow thirty-degree orbit.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 8.0,
+          "end": 13.0,
+          "visual": "Một bàn tay nữ đặt phẳng lên tựa lưng",
+          "text": "—",
+          "audio": "The lumbar support is attached to the seat cushion.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "One relaxed female hand resting flat on lumbar edge, no compression.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 13.0,
+          "end": 17.0,
+          "visual": "Ảnh beauty đệm trên bàn thay tạm cho insert đáy/vỏ; chữ tính năng lấy từ nhà cung cấp, chưa có proof thao tác thật.",
+          "text": "Non-slip · Washable cover",
+          "audio": "Grippy bottom. Removable, washable cover.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Exact one-piece Sevolra cushion stationary on pale oak table as temporary beauty shot; no fabricated bottom or removed cover. Feature text added separately from supplier descriptions, not physical test evidence.",
+          "production_note": "Real anti-slip bottom and removable-cover close-ups are missing; replace beauty shot when supplied.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 17.0,
+          "end": 22.0,
+          "visual": "Người đàn ông AI ngồi vào ghế, gõ laptop, tựa lưng",
+          "text": "—",
+          "audio": "For a WFH chair or an office setup.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Man in grey T-shirt seated in same chair using laptop, cushion under hips and behind torso.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 22.0,
+          "end": 25.0,
+          "visual": "Toàn cảnh đệm trên ghế",
+          "text": "LINK IN BIO",
+          "audio": "—",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Exact cushion on same empty chair, clean end card framing.",
+          "show_product": true,
+          "scene_kind": "scene"
+        }
+      ],
+      "source_title": "\"Butt + Back Relief In One?!\"",
+      "cta_placement": "end_card"
+    },
+    {
+      "id": "KB-04",
+      "title": "Quà tặng: He doesn’t need another mug",
+      "pages": [
+        "Drive",
+        "Desk"
+      ],
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "visual": "Vợ cầm đệm trước xe tải (Drive) / phòng làm việc (Desk), cười",
+          "text": "He doesn't need another mug.",
+          "audio": "He doesn't need another mug this Christmas.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Wife holding exact cushion beside parked truck or office desk, depending on page.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 3.0,
+          "end": 7.0,
+          "visual": "Vợ đặt đệm lên ghế",
+          "text": "—",
+          "audio": "For the seat he uses every day.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Wife placing cushion on the matching seat in one simple action.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 7.0,
+          "end": 10.0,
+          "visual": "Đệm đứng yên trên ghế, camera tiến chậm",
+          "text": "Seat + back. One piece.",
+          "audio": "Seat and back support, one piece.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Cushion stationary on matching seat, slow push-in.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 10.0,
+          "end": 14.0,
+          "visual": "Chồng ngồi xuống, tựa lưng, cười với vợ",
+          "text": "—",
+          "audio": "A practical gift for his daily setup.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Man sitting on cushion, wife nearby, neutral smile.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 14.0,
+          "end": 18.0,
+          "visual": "End card: 2 đệm + nơ quà",
+          "text": "2-PACK $99.90 · LINK IN BIO",
+          "audio": "One for the truck, one for home. Link in bio.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Two exact cushions on neutral studio background, no invented gift accessories.",
+          "show_product": true,
+          "scene_kind": "scene"
+        }
+      ],
+      "source_title": "Trao quà: \"He doesn't need another mug\"",
+      "cta_placement": "end_card"
+    },
+    {
+      "id": "KB-05",
+      "title": "Giải thích cấu trúc ghế và đệm",
+      "pages": [
+        "Drive",
+        "Desk"
+      ],
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "visual": "Minh họa sơ đồ ghế văn phòng và đệm trung tính, không cột sống đau đỏ.",
+          "text": "Take a closer look at your seat",
+          "audio": "Seat setup matters during a long day.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Neutral diagram of chair and cushion construction, no medical X-ray or diagnosis.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 3.0,
+          "end": 9.0,
+          "visual": "Minh họa ghế tĩnh, không ngụ ý ghế gây tổn thương.",
+          "text": "Check your seat support",
+          "audio": "Look at the seat and lower-back support.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Static ordinary seat with neutral seat construction illustration.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 9.0,
+          "end": 15.0,
+          "visual": "Người AI trên ghế thay đổi tư thế nhẹ, không làm before/after điều trị.",
+          "text": "Notice your sitting position",
+          "audio": "Notice how your sitting position changes.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Person making a small sitting-position adjustment; no treatment before-after.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 15.0,
+          "end": 22.0,
+          "visual": "Minh họa rãnh xương cụt và tựa lưng liền khối, không đo áp lực hoặc claim điều trị.",
+          "text": "Cutout + lumbar. One piece.",
+          "audio": "A tailbone cutout and lumbar support in one piece.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Neutral diagram identifying integrated lumbar ribs and tailbone opening.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 22.0,
+          "end": 28.0,
+          "visual": "Người AI ngồi thẳng, tựa lưng, cười",
+          "text": "$64.95 · LINK IN BIO",
+          "audio": "Upgrade the seat setup. Link in bio.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Exact cushion on chair with a simple seat-setup demonstration.",
+          "show_product": true,
+          "scene_kind": "scene"
+        }
+      ],
+      "source_title": "X-ray: cái ghế đang làm gì với cột sống",
+      "cta_placement": "end_card"
+    },
+    {
+      "id": "KB-06",
+      "title": "Timeline: Hour 1 / Hour 4 / Hour 8",
+      "pages": [
+        "Drive",
+        "Desk"
+      ],
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "visual": "Tài xế cười, cà phê, bình minh",
+          "text": "HOUR 1 · \"Fine.",
+          "audio": "Nhạc tăng dần căng thẳng",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Driver or desk worker in seat at start of day with coffee set aside.",
+          "show_product": false,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 3.0,
+          "end": 6.0,
+          "visual": "Nhăn mặt, xoay người",
+          "text": "HOUR 4 · Time to move",
+          "audio": "—",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Same person making a small posture adjustment mid-day.",
+          "show_product": false,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 6.0,
+          "end": 9.0,
+          "visual": "Bước xuống cabin chậm",
+          "text": "HOUR 8 · Long day",
+          "audio": "—",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Same person standing beside parked truck or office desk after long day.",
+          "show_product": false,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 9.0,
+          "end": 13.0,
+          "visual": "Đệm Sevolra trên ghế tài xế (keyframe)",
+          "text": "Seat + back. One piece. Stays put.",
+          "audio": "Nhạc chuyển nhẹ",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Exact cushion stationary on matching seat.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 13.0,
+          "end": 18.0,
+          "visual": "Đệm trên ghế; người đứng cạnh xe hoặc bàn làm việc, không trước đau/sau khỏi.",
+          "text": "Seat setup upgrade",
+          "audio": "—",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Cushion in matching seat setup with person standing nearby, no treatment transformation.",
+          "show_product": true,
+          "scene_kind": "scene"
+        }
+      ],
+      "source_title": "Timeline: Hour 1 / Hour 4 / Hour 8",
+      "cta_placement": "end_card"
+    },
+    {
+      "id": "KB-07",
+      "title": "Offer Sevolra · bundle",
+      "pages": [
+        "Drive",
+        "Desk"
+      ],
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "visual": "Đệm đứng yên trên nền sáng, camera orbit chậm 30°.",
+          "text": "SEVOLRA · $64.95",
+          "audio": "Meet Sevolra, sixty-four ninety-five.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Exact cushion stationary on bright studio background, subtle orbit.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 3.0,
+          "end": 7.0,
+          "visual": "Đệm trên ghế xe tải rồi ghế văn phòng (2 cảnh 2s)",
+          "text": "Truck. Car. Office.",
+          "audio": "One for the truck, one for the house.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Exact cushion on truck seat, then office chair as two separate short shots.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 7.0,
+          "end": 12.0,
+          "visual": "End card",
+          "text": "2-PACK $99.90 · LINK IN BIO",
+          "audio": "Two-pack: ninety-nine ninety. Link in bio.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Two exact cushions on studio background.",
+          "show_product": true,
+          "scene_kind": "scene"
+        }
+      ],
+      "source_title": "Deal: 50% OFF, hết hạn tối nay",
+      "cta_placement": "end_card"
+    },
+    {
+      "id": "KB-08",
+      "title": "Four seats. One cushion design.",
+      "pages": [
+        "Drive",
+        "Desk"
+      ],
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.0,
+          "visual": "Người dẫn thương hiệu cạnh 4 đệm Sevolra, không kể chuyện đã mua hàng.",
+          "text": "Four seats. One cushion design.",
+          "audio": "Four places for the same cushion design.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Brand presenter next to four exact Sevolra cushions, product demo rather than buyer testimonial.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 5.0,
+          "end": 12.0,
+          "visual": "B-roll: đệm trên ghế xe tải, ghế xe, ghế bếp, trong vali (mỗi cảnh 1,5s)",
+          "text": "Truck · Car · Kitchen · Suitcase",
+          "audio": "One for the truck, one for the car, one for the kitchen, one that lives in the suitcase.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Short still B-roll of cushion on truck seat, car seat, dining chair, and packed next to suitcase.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 12.0,
+          "end": 20.0,
+          "visual": "Nói trong xe, tay đặt lên đệm",
+          "text": "One-piece seat and lumbar support",
+          "audio": "Seat and lumbar support, together in one piece.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Brand presenter in parked car resting one hand on cushion, no squeezing.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 20.0,
+          "end": 30.0,
+          "visual": "Minh họa cấu trúc rãnh xương cụt và tựa lưng; không X-ray đỏ/chuyển xanh.",
+          "text": "Cutout + lumbar. One piece.",
+          "audio": "The back's attached, so nothing slides around.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Neutral product construction diagram showing attached lumbar and tailbone opening.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 30.0,
+          "end": 38.0,
+          "visual": "Nói trước xe",
+          "text": "A cushion for everyday seats",
+          "audio": "Choose the bundle that fits your setup.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Brand presenter standing by parked vehicle with minimal hand movement.",
+          "show_product": true,
+          "scene_kind": "scene"
+        },
+        {
+          "start": 38.0,
+          "end": 45.0,
+          "visual": "End card",
+          "text": "4-PACK $165.80 · LINK IN BIO",
+          "audio": "See the four-pack. Link in bio.",
+          "overlay": {
+            "position": "top-center",
+            "x": 100,
+            "y": 220,
+            "width": 800,
+            "font": "Arial Bold",
+            "size": 58,
+            "max_lines": 3
+          },
+          "asset": "GENERATE",
+          "visual_en": "Four exact cushions in neutral end card arrangement.",
+          "show_product": true,
+          "scene_kind": "scene"
+        }
+      ],
+      "source_title": "Talking-head UGC: \"We ended up buying four\"",
+      "cta_placement": "end_card"
+    }
+  ],
+  "captions": [
+    {
+      "id": "CAP-0101",
+      "kb": "KB-01",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F4",
+      "goal": "share",
+      "hashtags": "HS-DRIVE-GIFT",
+      "text": "He has enough mugs. Think about his seat. 🚛\nSeat + lumbar in one piece. Removable, washable cover.\nSend this to someone shopping for a driver.",
+      "source_text": "He won't ask for it. He'll just complain every drive. 🚛\nSeat + lumbar in one piece. Stays put. Cover goes in the wash.\nSend this to the wife who needs to see it.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport"
+    },
+    {
+      "id": "CAP-0102",
+      "kb": "KB-01",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F1",
+      "goal": "comment",
+      "hashtags": "HS-DRIVE",
+      "text": "A long shift deserves a seat setup check.\nSeat + lumbar support in one piece, with a tailbone cutout.\nWhich part of his setup would you upgrade?",
+      "source_text": "Sign #2 is the one every trucker's wife knows.\nHe climbs out of the cab like he's 80.\nWhich sign is your husband?",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckdriver #carseatcushion #longdrive #seatcushion"
+    },
+    {
+      "id": "CAP-0103",
+      "kb": "KB-01",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F4",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-DRIVE-GIFT",
+      "text": "For the driver who already has enough mugs. 🎁\nSeat + lumbar support in one piece.\n2-pack: one for the rig, one for home. Link in bio.",
+      "source_text": "A trucker doesn't need another mug. 🎁\nHe needs to get out of the cab without grabbing his back.\n2-pack: one for the rig, one for the house. Link in bio.",
+      "status": "approved",
+      "hashtag_text": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo."
+    },
+    {
+      "id": "CAP-0104",
+      "kb": "KB-01",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F5",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-DRIVE",
+      "text": "Start with his seat setup.\nSevolra combines seat + lumbar support in one piece.\n60 days to try it. Link in bio.",
+      "source_text": "It's not his back. It's the seat.\nFlat foam puts all his weight on one small spot for 10 hours.\n60 days to try it. Link in bio.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckdriver #carseatcushion #longdrive #seatcushion"
+    },
+    {
+      "id": "CAP-0201",
+      "kb": "KB-02",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F1",
+      "goal": "comment",
+      "hashtags": "HS-DRIVE",
+      "text": "A $64.95 addition to the cab setup. 🚛\nSeat + back support in one piece. Anti-slip base.\nTruck seat or car seat, where would you put it?",
+      "source_text": "Fixed for $65. 🚛\nSeat + back support in one piece. Doesn't slide on the seat.\nLower back or tailbone, which one gets you first?",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckdriver #carseatcushion #longdrive #seatcushion"
+    },
+    {
+      "id": "CAP-0202",
+      "kb": "KB-02",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F1",
+      "goal": "share",
+      "hashtags": "HS-DRIVE",
+      "text": "Mile 200. Same seat.\nOne-piece seat + lumbar support, with an anti-slip base.\nTag a driver who would check this out.",
+      "source_text": "Mile 200 hits different.\nOne piece. Seat + lumbar. Stays put all shift.\nTag a driver who needs this.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckdriver #carseatcushion #longdrive #seatcushion"
+    },
+    {
+      "id": "CAP-0203",
+      "kb": "KB-02",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F5",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-DRIVE",
+      "text": "Eleven hours is a lot of seat time.\nSevolra adds seat + lumbar support to the setup.\nLink in bio.",
+      "source_text": "Your truck seat wasn't built for 11-hour shifts.\nUpgrade the seat, not the rig.\nLink in bio.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckdriver #carseatcushion #longdrive #seatcushion"
+    },
+    {
+      "id": "CAP-0204",
+      "kb": "KB-02",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F1",
+      "goal": "comment",
+      "hashtags": "HS-DRIVE",
+      "text": "Cloth seat or leather seat? 😅\nSevolra adds a contoured seat and attached lumbar support, with a removable cover.\nWhich seat would you put it on?",
+      "source_text": "Bonus: it saves the seat leather too. 😅\nCushion on top, no more cracks underneath.\nCloth or leather seats in your truck?",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckdriver #carseatcushion #longdrive #seatcushion"
+    },
+    {
+      "id": "CAP-0205",
+      "kb": "KB-02",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F4",
+      "goal": "share",
+      "hashtags": "HS-DRIVE-GIFT",
+      "text": "A gift for his rig—or your own car.\nSeat + back support in one piece. Removable, washable cover.\nSend this to someone who drives every day.",
+      "source_text": "Bought it for him. Now I want one for my car.\nSeat + back in one piece, cover goes in the wash.\nSend this to your husband.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport"
+    },
+    {
+      "id": "CAP-0301",
+      "kb": "KB-03",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F3",
+      "goal": "comment",
+      "hashtags": "HS-DESK",
+      "text": "Yep, both. 🤔\nThe lumbar support is attached to the seat cushion, all in one piece.\nShould office chairs just come like this?",
+      "source_text": "Yep, both. 🤔\nThe back part is attached, so it doesn't slide down your chair.\nShould office chairs just come like this?",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#wfh #deskjob #officechair #desksetup #seatcushion"
+    },
+    {
+      "id": "CAP-0302",
+      "kb": "KB-03",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F3",
+      "goal": "lưu",
+      "hashtags": "HS-DESK",
+      "text": "The WFH upgrade nobody talks about.\nSeat + lumbar in one piece. Grippy bottom. Washable cover.\nSave this for your next setup refresh.",
+      "source_text": "The WFH upgrade nobody talks about.\nSeat + lumbar in one piece. Grippy bottom. Washable cover.\nSave this for your next setup refresh.",
+      "status": "approved",
+      "hashtag_text": "#wfh #deskjob #officechair #desksetup #seatcushion",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo."
+    },
+    {
+      "id": "CAP-0303",
+      "kb": "KB-03",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F5",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-DESK",
+      "text": "Refresh your seat setup for $64.95.\nSeat + lumbar support in one piece. Removable, washable cover.\nLink in bio.",
+      "source_text": "$1,000 ergonomic chair or a $65 upgrade?\nSame chair, way better 9-to-5.\nLink in bio.",
+      "status": "approved",
+      "hashtag_text": "#wfh #deskjob #officechair #desksetup #seatcushion",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo."
+    },
+    {
+      "id": "CAP-0304",
+      "kb": "KB-03",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F4",
+      "goal": "share",
+      "hashtags": "HS-DESK-GIFT",
+      "text": "A gift for his WFH setup. 🎁\nSeat + lumbar support in one piece. Removable, washable cover.\nTag someone shopping for a desk worker.",
+      "source_text": "Got one for his WFH chair too. 🎁\nHe sits 9 hours a day. This is the gift he'll actually use.\nTag someone who needs to see this.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#wfh #officechair #giftsforhim #husbandgift #seatcushion"
+    },
+    {
+      "id": "CAP-0305",
+      "kb": "KB-03",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F3",
+      "goal": "comment",
+      "hashtags": "HS-DESK",
+      "text": "Gaming chair or office chair? 🎮\nOne-piece seat + lumbar support, anti-slip base, removable cover.\nWhere would you put it?",
+      "source_text": "Works on gaming chairs too. 🎮\nOne piece, stays put, cover comes off.\nOffice chair or gaming chair, where would you put it?",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#wfh #deskjob #officechair #desksetup #seatcushion"
+    },
+    {
+      "id": "CAP-0401",
+      "kb": "KB-04",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F4",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-DRIVE-GIFT",
+      "text": "For the man who doesn't need another mug. 🎄\nA one-piece seat + lumbar cushion for his daily setup.\n2-pack $99.90. Link in bio.",
+      "source_text": "Christmas gift for the man who \"doesn't need anything.\" 🎄\nHe'll use it every single shift.\n2-pack gift set: $99.90. Link in bio.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport"
+    },
+    {
+      "id": "CAP-0402",
+      "kb": "KB-04",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F4",
+      "goal": "share",
+      "hashtags": "HS-DRIVE-GIFT",
+      "text": "Every. Single. Drive. Same seat.\nA practical gift: seat + lumbar support in one piece.\nTag someone shopping for a driver.",
+      "source_text": "He complained. Every. Single. Drive.\nSo I fixed it. 🤫\nTag the wife who needs to see this.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport"
+    },
+    {
+      "id": "CAP-0403",
+      "kb": "KB-04",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F4",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-DESK-GIFT",
+      "text": "He sits all day. Think about his seat. 🎁\nSeat + back support in one piece. 60 days to try it.\nLink in bio.",
+      "source_text": "He sits 9 hours a day. Gift him the seat. 🎁\nSeat + back support in one piece. 60 days to try it.\nLink in bio.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#wfh #officechair #giftsforhim #husbandgift #seatcushion"
+    },
+    {
+      "id": "CAP-0404",
+      "kb": "KB-04",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F4",
+      "goal": "share",
+      "hashtags": "HS-DESK-GIFT",
+      "text": "One for his office. One for the car.\nThe two-pack pairs seat + lumbar support in one piece.\nSend this to someone shopping for their husband.",
+      "source_text": "Best gift I've given him in years. Not even close.\nOne for his office, one for the car.\nSend this to someone shopping for their husband.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#wfh #officechair #giftsforhim #husbandgift #seatcushion"
+    },
+    {
+      "id": "CAP-0405",
+      "kb": "KB-04",
+      "pages": [
+        "Drive",
+        "Desk"
+      ],
+      "formula": "F4",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-GIFT",
+      "text": "A practical gift for dad's everyday seat. ❤️\nOne-piece seat + lumbar support. Free shipping. 60 days to try it.\nShop the 2-pack.",
+      "source_text": "Dad, husband, grandpa: if he sits all day, this is the gift. ❤️\nFree shipping. 60 days to try it.\nShop the 2-pack before it sells out.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#giftsforhim #giftsfordad #christmasgiftideas #husbandgift #seatcushion"
+    },
+    {
+      "id": "CAP-0501",
+      "kb": "KB-05",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F5",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-DESK",
+      "text": "Before replacing the chair, check the seat setup.\nA tailbone cutout and attached lumbar support, in one piece.\nSee Sevolra. Link in bio.",
+      "source_text": "Your chair is the problem, not your back.\nA flat seat puts your weight on one small spot for 8 hours.\nUpgrade the seat, not the chair. Link in bio.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#wfh #deskjob #officechair #desksetup #seatcushion"
+    },
+    {
+      "id": "CAP-0502",
+      "kb": "KB-05",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F1",
+      "goal": "comment",
+      "hashtags": "HS-DESK",
+      "text": "How does your setup look by 3 p.m.?\nTailbone cutout. Attached lumbar support. One piece.\nHow many hours do you sit a day?",
+      "source_text": "This is why you slouch by 3 p.m.\nCutout under the tailbone. Support behind your lower back. One piece.\nHow many hours do you sit a day?",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#wfh #deskjob #officechair #desksetup #seatcushion"
+    },
+    {
+      "id": "CAP-0503",
+      "kb": "KB-05",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F5",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-DRIVE",
+      "text": "Ten hours in the cab is serious seat time.\nCutout + lumbar support in one piece. Anti-slip base.\n60 days to try it. Link in bio.",
+      "source_text": "What 10 hours on a flat truck seat really looks like.\nCutout + lumbar in one piece. No sliding.\n60 days to try it. Link in bio.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckdriver #carseatcushion #longdrive #seatcushion"
+    },
+    {
+      "id": "CAP-0504",
+      "kb": "KB-05",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F3",
+      "goal": "share",
+      "hashtags": "HS-DESK",
+      "text": "A closer look at the everyday office seat. 😳\nSevolra adds a contoured seat and attached lumbar support.\nSend this to your desk buddy.",
+      "source_text": "Nobody told me my chair was doing this. 😳\nSend this to the coworker who's always stretching.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#wfh #deskjob #officechair #desksetup #seatcushion"
+    },
+    {
+      "id": "CAP-0601",
+      "kb": "KB-06",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F2",
+      "goal": "share",
+      "hashtags": "HS-DRIVE",
+      "text": "Hour 1. Hour 4. Hour 8. Same seat.\nOne-piece seat + lumbar support, with an anti-slip base.\nTag a driver who would check this out.",
+      "source_text": "Hour 1: fine. Hour 4: lower back. Hour 8: different story.\nOne piece. Seat + lumbar. Stays put.\nTag a driver who needs this.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckdriver #carseatcushion #longdrive #seatcushion"
+    },
+    {
+      "id": "CAP-0602",
+      "kb": "KB-06",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F2",
+      "goal": "comment",
+      "hashtags": "HS-DRIVE",
+      "text": "How long is your usual shift? ⏱️\nSeat + back support in one piece. Removable, washable cover.\nDrop your hours below.",
+      "source_text": "What hour does it start for you? ⏱️\nSeat + back support in one piece. Built for long shifts.\nDrop your hour below.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckdriver #carseatcushion #longdrive #seatcushion"
+    },
+    {
+      "id": "CAP-0603",
+      "kb": "KB-06",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F2",
+      "goal": "share",
+      "hashtags": "HS-DESK",
+      "text": "9 a.m. vs 6 p.m. in the same chair.\nSeat + back support in one piece. Grippy bottom.\nTag your desk buddy.",
+      "source_text": "9 a.m. vs 6 p.m. in the same chair.\nSeat + back support in one piece. Grippy bottom.\nTag your desk buddy.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#wfh #deskjob #officechair #desksetup #seatcushion"
+    },
+    {
+      "id": "CAP-0604",
+      "kb": "KB-06",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F2",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-DESK",
+      "text": "Same 9-to-5. A new seat setup.\nSevolra: $64.95. Seat + lumbar support. 60 days to try it.\nLink in bio.",
+      "source_text": "Same 9-to-5. Better 6 p.m.\n$65 upgrade. 60 days to try it.\nLink in bio.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#wfh #deskjob #officechair #desksetup #seatcushion"
+    },
+    {
+      "id": "CAP-0701",
+      "kb": "KB-07",
+      "pages": [
+        "Drive",
+        "Desk"
+      ],
+      "formula": "F6",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-OFFER",
+      "text": "Two everyday seats. One bundle.\n2-pack $99.90. Free shipping. 60-day money-back guarantee.\nLink in bio.",
+      "source_text": "50% off ends tonight. ⏰\nFree shipping. 60 days to send it back. 2-pack for $99.90.\nTap the link before midnight.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#seatcushion #lumbarsupport #memoryfoam #tiktokmademebuyit #deals"
+    },
+    {
+      "id": "CAP-0702",
+      "kb": "KB-07",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F6",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-OFFER",
+      "text": "One for the truck. One for home.\n2-pack $99.90, free shipping, 60-day money-back guarantee.\nShop the two-pack.",
+      "source_text": "Half off for the truck and the house.\n2-pack $99.90 · free shipping · 60-day guarantee.\nShop now.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#seatcushion #lumbarsupport #memoryfoam #tiktokmademebuyit #deals"
+    },
+    {
+      "id": "CAP-0703",
+      "kb": "KB-07",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F6",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-OFFER",
+      "text": "One for the office. One for home.\n2-pack $99.90. Seat + lumbar support in each piece.\nLink in bio.",
+      "source_text": "Last day at half price. 🗓️\nOne for the office, one for home. 60 days to try it.\nLink in bio.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#seatcushion #lumbarsupport #memoryfoam #tiktokmademebuyit #deals"
+    },
+    {
+      "id": "CAP-0704",
+      "kb": "KB-07",
+      "pages": [
+        "Drive",
+        "Desk"
+      ],
+      "formula": "F6",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-GIFT",
+      "text": "A practical gift for the everyday seat. 🎄\n2-pack $99.90. Free shipping. 60-day money-back guarantee.\nLink in bio.",
+      "source_text": "Christmas shipping cutoff is coming. 🎄\nOrder the gift set now, free shipping included.\nLink in bio.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#giftsforhim #giftsfordad #christmasgiftideas #husbandgift #seatcushion"
+    },
+    {
+      "id": "CAP-0801",
+      "kb": "KB-08",
+      "pages": [
+        "Drive",
+        "Desk"
+      ],
+      "formula": "F4",
+      "goal": "chuyển đổi",
+      "hashtags": "HS-GIFT",
+      "text": "Truck. Car. Kitchen. Four-pack.\nFour one-piece seat + lumbar cushions for $165.80, with free shipping.\nLink in bio.",
+      "source_text": "We ended up buying four. Truck, car, kitchen, suitcase.\n4-pack is the best deal: $165.80, free shipping.\nLink in bio.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#giftsforhim #giftsfordad #christmasgiftideas #husbandgift #seatcushion"
+    },
+    {
+      "id": "CAP-0802",
+      "kb": "KB-08",
+      "pages": [
+        "Drive"
+      ],
+      "formula": "F1",
+      "goal": "comment",
+      "hashtags": "HS-DRIVE",
+      "text": "More than one seat in the daily routine?\nSevolra combines seat + lumbar support in one piece.\nHow many seats would you put one on?",
+      "source_text": "Started with one for the truck. Now nobody here drives without one.\nHow many seats in your house need this?",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#truckerlife #truckdriver #carseatcushion #longdrive #seatcushion"
+    },
+    {
+      "id": "CAP-0803",
+      "kb": "KB-08",
+      "pages": [
+        "Desk"
+      ],
+      "formula": "F3",
+      "goal": "share",
+      "hashtags": "HS-DESK",
+      "text": "Office, car, dining chair. Same cushion design.\nSeat + back support in one piece, with a removable cover.\nSend this to someone refreshing their everyday setup.",
+      "source_text": "Office, car, dining chair, couch. Same cushion.\nSeat + back in one piece, stays put everywhere.\nSend this to whoever needs one for every chair.",
+      "status": "approved",
+      "revision_note": "Maintain KB/page/formula/goal; adapt unsupported medical results, invented testimonial, exclusivity and deadlines into a feature-led demo.",
+      "hashtag_text": "#wfh #deskjob #officechair #desksetup #seatcushion"
+    }
+  ],
+  "source_date": "2026-10-11",
+  "hashtag_sets": {
+    "HS-DRIVE": "#truckerlife #truckdriver #carseatcushion #longdrive #seatcushion",
+    "HS-DRIVE-GIFT": "#truckerlife #truckerwife #giftsforhim #seatcushion #lumbarsupport",
+    "HS-DESK": "#wfh #deskjob #officechair #desksetup #seatcushion",
+    "HS-DESK-GIFT": "#wfh #officechair #giftsforhim #husbandgift #seatcushion",
+    "HS-GIFT": "#giftsforhim #giftsfordad #christmasgiftideas #husbandgift #seatcushion",
+    "HS-OFFER": "#seatcushion #lumbarsupport #memoryfoam #tiktokmademebuyit #deals"
+  }
+}

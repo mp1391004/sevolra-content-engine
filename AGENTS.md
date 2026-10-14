@@ -1,0 +1,2 @@
+# Sevolra Content Engine
+This directory targets Sevolra Orthopedic Cushion. Read PROJECT-INSTRUCTIONS.md and its referenced knowledge before producing content. The parent repository's Christmas robe defaults do not apply inside this directory: the user explicitly requested a separate Sevolra tool. Use data.json for the maintained scene and caption revisions, official Sevolra product assets as image references, and SOURCE-* files for provenance. Tests export drafts; do not call them posted videos or approved footage.

@@ -1,0 +1,38 @@
+{
+  "status": "pass",
+  "summary": "Bốn khung đáp ứng bố cục Drive; vị trí người, ghế lái và vô lăng nhất quán. Mặt rõ, đúng chữ, số thứ tự và mốc thời gian.",
+  "panels": [
+    {
+      "number": 1,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người đứng ngoài cửa, phía ngoài bậc lên xuống nâng cao. Đệm nằm trên ghế sát cửa lái, hướng về vô lăng và bảng điều khiển phía trước; ghế phụ ở phía bên kia."
+    },
+    {
+      "number": 2,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người cầm đệm đứng ngoài thân xe; mặt đường, khung cửa và bậc lên xuống xác lập vị trí bên ngoài. Ghế và vô lăng giữ bố cục nhất quán."
+    },
+    {
+      "number": 3,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Hông đặt trên phần ngồi của đệm ở ghế lái sát cửa; phần tựa nằm sau thân người. Vô lăng và bảng điều khiển phía trước ngực, chân trong khoang để chân người lái."
+    },
+    {
+      "number": 4,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người đứng ngoài cửa và bên ngoài các bậc nâng cao, chỉ vào đệm trên ghế lái. Đệm hướng về vô lăng phía trước; chữ ưu đãi và CTA đúng yêu cầu."
+    }
+  ]
+}

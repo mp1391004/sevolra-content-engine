@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "summary": "Bốn khung đáp ứng bố trí Drive: người đứng ngoài xe ở khung 1/2/4 và ngồi ghế lái ở khung 3. Hướng, tỷ lệ đệm và vị trí chữ nhất quán theo các mốc nhìn thấy.",
+  "panels": [
+    {
+      "number": 1,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người đứng ngoài cửa, thấp hơn bậc lên xe. Đệm trên ghế gần cửa; lưng đệm áp tựa xanh bên phải, phần đùi hướng trái về vô lăng. Còn viền ghế xanh; chữ đúng và nằm thấp, không che mặt hay đệm.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 2,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Thân người nằm ngoài khung cửa và phía trước bậc xe. Đệm cầm ngang eo, rộng xấp xỉ vai, không có dấu hiệu phóng đại do đưa sát máy. Chữ đúng, nằm dưới sản phẩm; mặt rõ.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 3,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Hông đặt trên đệm ghế lái, lưng đệm phía sau thân, chân trong khoang để chân và vô lăng phía trước. Phần đế xám, mép ghế xanh và vị trí lưng đệm phù hợp các khung ghế trống; không thấy đệm phình lớn. Chữ đúng, ở khoảng giữa dưới, không che mặt.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 4,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người đứng ngoài thân xe, cạnh bậc lên cabin. Đệm có lưng phía phải sát tựa ghế, đầu đùi hướng trái về bảng điều khiển; góc nhìn xiên và tỷ lệ tương ứng khung 1. CTA đúng, đặt thấp và tách khỏi mặt, sản phẩm.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    }
+  ],
+  "review_file": "generated/reviews/product-v4-2-1791981770685.json",
+  "checked_at": "2026-10-14T12:43:23.927Z"
+}

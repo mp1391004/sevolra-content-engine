@@ -1,0 +1,50 @@
+{
+  "status": "fail",
+  "summary": "Đủ bốn khung, đúng số/thời gian và nội dung chữ; mặt đều rõ. Tuy nhiên, hướng đệm ở khung 1 chưa đồng nhất với khung 4; đệm cầm ở khung 2 quá lớn và bị chữ che. Chưa xác minh được kích thước đệm nhất quán khi có người ngồi.",
+  "panels": [
+    {
+      "number": 1,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người đứng ngoài, có mặt đất và bậc lên xuống làm mốc. Mặt lòng đệm và hai thùy trước mở về phía cửa/camera quá nhiều so với hướng ghế tới vô-lăng; cần xoay đầu đệm về phía dashboard bên trái và áp lưng đệm vào tựa xanh. Đệm gần phủ hết bề ngang ghế, chưa thể hiện rõ phần vải xanh chừa theo tỷ lệ 80%.",
+      "product_orientation_ok": false,
+      "product_scale_ok": false,
+      "text_placement_ok": true
+    },
+    {
+      "number": 2,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người ở ngoài cửa xe. Đệm cầm phía trước thân, bề ngang vượt rõ bề ngang vai và chiếm gần toàn bộ thân trên; cần thu về cỡ ngang vai và giữ sát mặt phẳng thân tại eo. Hộp chữ đúng vùng thấp nhưng đè lên mép trước sản phẩm.",
+      "product_orientation_ok": true,
+      "product_scale_ok": false,
+      "text_placement_ok": false
+    },
+    {
+      "number": 3,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Hông nằm trên đệm ghế lái, chân trong khoang chân, vô-lăng phía trước. Phần đệm nhìn thấy chạy đúng hướng ghế. Thân người che phần lớn lòng đệm và tựa lưng nên chưa xác minh được cùng footprint, độ dày và chiều cao với khung ghế trống; product_scale_ok=false biểu thị chưa xác minh. Chữ nằm đúng vùng giữa thấp.",
+      "product_orientation_ok": true,
+      "product_scale_ok": false,
+      "text_placement_ok": true
+    },
+    {
+      "number": 4,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Vị trí ngoài xe được thể hiện bằng thân xe đỏ và bậc lên xuống phía sau người. Đệm có dáng nghiêng, tựa phía phải sát lưng ghế và đầu trước hướng trái về vô-lăng. Tuy nhiên, phần xanh chừa hai bên không đủ rõ để xác nhận footprint 80% và kích thước đồng nhất với khung 3; product_scale_ok=false biểu thị chưa xác minh. CTA thấp, không che mặt hoặc đệm.",
+      "product_orientation_ok": true,
+      "product_scale_ok": false,
+      "text_placement_ok": true
+    }
+  ]
+}

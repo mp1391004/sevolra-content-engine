@@ -1,0 +1,52 @@
+{
+  "status": "fail",
+  "summary": "Đủ bốn khung, đúng chữ và mốc thời gian, mặt đều rõ. Tuy nhiên, toàn bộ headline/CTA nằm sát đỉnh thay vì vùng thấp quy định. Đệm ở khung 1/4 xoay mặt ra cửa/camera, không cùng hướng ghế về vô-lăng; kích thước và dấu chân đệm chưa nhất quán với khung 3.",
+  "panels": [
+    {
+      "number": 1,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người đứng ngoài xe, có mặt đường và bậc lên xuống làm mốc. Đệm phô gần trọn mặt trước ra cửa/camera; hai thùy trước hướng ra cửa thay vì về vô-lăng bên trái ảnh, phần lưng không áp sát theo mặt tựa xanh. Bề ngang đệm gần chiếm hết mặt ghế, không thể hiện tỷ lệ 80% và viền xanh hai bên. Headline ở sát đỉnh, cần hạ xuống vùng 68–82%.",
+      "product_orientation_ok": false,
+      "product_scale_ok": false,
+      "text_placement_ok": false
+    },
+    {
+      "number": 2,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người ở ngoài cửa xe, đệm cầm phía trước eo và không che mặt. Hướng cầm phù hợp khung giới thiệu, nhưng đệm trông rộng hơn vai và nhô rõ ra trước thân; không xác nhận được kích thước 44 cm trong mặt phẳng thân người. Headline ở đỉnh, cần hạ xuống vùng 68–82%.",
+      "product_orientation_ok": true,
+      "product_scale_ok": false,
+      "text_placement_ok": false
+    },
+    {
+      "number": 3,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Hông nằm trên đệm ghế lái, chân trong hốc chân và vô-lăng ở phía trước. Phần đệm thấy được chạy theo ghế, lưng đệm nằm sau thân. Tuy nhiên, mặt đệm dưới hông kéo dài và phần lưng dựng sát tựa khác dấu chân đệm xoay ngang ở khung 1/4; thân người che khuất nên chưa xác minh được cùng kích thước và viền xanh 80%. Headline ở đỉnh, cần hạ xuống vùng 48–62%.",
+      "product_orientation_ok": true,
+      "product_scale_ok": false,
+      "text_placement_ok": false
+    },
+    {
+      "number": 4,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người đứng phía ngoài thân xe và bậc lên xuống. Đệm quay mặt trước về cửa/camera, hai thùy trước không hướng dọc ghế về vô-lăng; chưa thấy phần lưng áp sát đúng mặt tựa xanh. Đệm gần phủ hết chiều ngang ghế và có dấu chân khác khung đang ngồi, không đạt khóa tỷ lệ 80%. CTA nằm sát đỉnh, cần hạ xuống vùng 68–82%.",
+      "product_orientation_ok": false,
+      "product_scale_ok": false,
+      "text_placement_ok": false
+    }
+  ],
+  "review_file": "generated/reviews/regression-layout-v2-1791981575568.json",
+  "checked_at": "2026-10-14T12:40:10.891Z"
+}

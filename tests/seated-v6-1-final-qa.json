@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "summary": "Bốn khung đáp ứng bố cục Drive theo bằng chứng nhìn thấy. Đệm lắp hướng về vô-lăng, tỷ lệ nhất quán giữa các cảnh ngồi; người cầm đệm ở ngoài xe. Chữ đúng, đặt thấp và không che mặt.",
+  "panels": [
+    {
+      "number": 1,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người ngồi trên đệm ở ghế lái sát cửa, chân trong khoang để chân, vô-lăng phía trước. Phần đệm trước hướng về bảng điều khiển bên trái ảnh; phần lưng áp theo tựa ghế bên phải. Đế xám và mép ghế xanh có tỷ lệ phù hợp với khung 3/4. Chữ và nhãn 1, 0–7s đúng, không che mặt.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 2,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Thân người ở ngoài khung cửa, phía trước bậc lên xuống nâng cao; mặt đường và thân xe đỏ xác lập vị trí ngoài xe dù bàn chân ngoài khung hình. Đệm cầm ngang eo, gần mặt phẳng thân người, rộng xấp xỉ vai. Chữ nằm dưới sản phẩm; nhãn 2, 7–15s và nội dung đúng.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 3,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Ngồi đúng ghế lái với hông trên đệm, vô-lăng phía trước và chân trong khoang lái. Đệm chạy dọc mặt ghế, phần lưng phía tựa ghế; độ dày đế và mép xanh nhất quán với khung 1/4. Chữ ở khoảng giữa thấp, không che mặt hoặc phần đệm nhìn thấy; nhãn 3, 15–23s đúng.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 4,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Giữ cùng hướng ghế lái và vị trí ngồi như khung 1/3. Đệm trước hướng về vô-lăng, phần lưng sát tựa ghế; đế xám, vị trí phía sau và mép ghế xanh không cho thấy thay đổi kích thước. CTA đặt thấp, đọc đủ, không che mặt hoặc sản phẩm; nhãn 4, 23–30s đúng.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    }
+  ],
+  "review_file": "generated/reviews/seated-v6-1-1791982759398.json",
+  "checked_at": "2026-10-14T12:59:50.852Z"
+}

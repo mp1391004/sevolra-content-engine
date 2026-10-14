@@ -1,0 +1,18 @@
+import {assertSpatialPlan} from '../spatial.mjs';
+import assert from 'node:assert/strict';import{readFile,access}from'node:fs/promises';import{draft30,characters}from'../engine.mjs';import{mapLimit,validateBatch}from'../batch.mjs';
+const d=JSON.parse(await readFile(new URL('../data.json',import.meta.url),'utf8'));let checked=0;
+for(const c of d.concepts)for(const p of c.pages)for(const cap of d.captions.filter(x=>x.kb===c.id&&x.pages.includes(p))){const s=draft30(d,c.id,p,cap.id);assertSpatialPlan(s);assert.equal(s.duration,30);assert.deepEqual(s.frames.map(f=>[f.start,f.end]),[[0,7],[7,15],[15,23],[23,30]]);assert.deepEqual(s.frames.map(f=>f.number),[1,2,3,4]);assert.equal(s.frames.at(-1).text,s.cta);assert.equal(s.character.id,p==='Drive'?'DRIVE-01':'DESK-01');assert(s.video_prompt.includes('ONE complete 30-second'));assert(s.storyboard_prompt.includes('Exactly FOUR'));assert(!s.frames.some(f=>/chapter|orange/i.test(f.action)));checked++;}
+for(const c of Object.values(characters))await access(new URL('../'+c.image,import.meta.url));
+for(const bad of [0,13,1.5,NaN])assert.throws(()=>validateBatch({count:bad,parallel:2,page:'Drive',kb:'KB-01',cap:'CAP-0103'}));
+assert.throws(()=>validateBatch({count:2,parallel:11,page:'Drive',kb:'KB-01',cap:'CAP-0103'}));
+let active=0,peak=0;const results=await mapLimit([1,2,3,4,5],2,async x=>{active++;peak=Math.max(peak,active);await new Promise(r=>setTimeout(r,20));active--;return x*2;});assert.equal(peak,2);assert.deepEqual(results,[2,4,6,8,10]);
+console.log(`PASS ${checked} 30-second packages; four panels, correct actor, numbered timeline and one CTA. Batch worker peak=2 with no lost jobs; invalid counts rejected.`);
+
+const drive=draft30(d,'KB-01','Drive','CAP-0103');for(const bad of ['standing_in_cabin','seated_passenger','between_seats']){const broken=structuredClone(drive);broken.frames[0].person_position=bad;assert.throws(()=>assertSpatialPlan(broken));}const brokenSeat=structuredClone(drive);brokenSeat.frames[2].product_position='passenger_seat';assert.throws(()=>assertSpatialPlan(brokenSeat));console.log('PASS spatial regression: impossible cabin standing, passenger-seated presenter, aisle position and wrong cushion seat rejected.');
+
+for(const [field,value] of [['product_axis','toward_door'],['product_scale','enlarged_when_seated']]){const broken=structuredClone(drive);broken.frames[0][field]=value;assert.throws(()=>assertSpatialPlan(broken));}
+assert.deepEqual(drive.layout.product_dimensions_cm,{width:44,depth:40,height:37});assert(drive.frames.every(f=>f.overlay));assert(drive.storyboard_prompt.includes('25%'));console.log('PASS product direction/scale regression and lower caption placement included.');
+
+assert.deepEqual(drive.frames.map(f=>f.person_position),['seated_driver','outside_ground','seated_driver','seated_driver']);for(const n of [0,3]){const broken=structuredClone(drive);broken.frames[n].person_position='outside_ground';assert.throws(()=>assertSpatialPlan(broken));}console.log('PASS no empty-seat display in panels1/4; same straight seated-driver setup as panel3.');
+
+validateBatch({count:12,parallel:10,page:'Drive',kb:'KB-01',cap:'CAP-0103'});let tenActive=0,tenPeak=0;await mapLimit(Array.from({length:12},(_,i)=>i),10,async()=>{tenActive++;tenPeak=Math.max(tenPeak,tenActive);await new Promise(r=>setTimeout(r,20));tenActive--;});assert.equal(tenPeak,10);console.log('PASS 10 workers run concurrently; 11 rejected.');

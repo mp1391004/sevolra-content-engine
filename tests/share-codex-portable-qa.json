@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "summary": "Bốn khung đáp ứng bố cục Drive: khung 1/3/4 ngồi đúng ghế lái, khung 2 đứng ngoài xe. Hướng và tỷ lệ đệm nhất quán theo các mốc nhìn thấy; chữ đúng, hạ thấp và không che mặt.",
+  "panels": [
+    {
+      "number": 1,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Hông đặt trên đệm ở ghế lái, chân trong khoang để chân, vô lăng phía trước. Phần tựa đệm sát lưng ghế bên phải ảnh, đáy hướng về bảng điều khiển bên trái; còn thấy mép ghế xanh. Chữ đúng, nằm thấp và không che sản phẩm.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 2,
+      "person_position": "outside_ground",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Thân và chân người ở ngoài ngưỡng cửa, phía ngoài các bậc lên cabin; khung cửa và thân xe đỏ xác lập vị trí dù bàn chân ngoài ảnh. Đệm cầm ngang eo, gần mặt phẳng thân, rộng xấp xỉ vai. Chữ đúng, nằm dưới đệm, mặt không bị che.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 3,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Giữ cùng ghế lái thẳng và góc nhìn nghiêng như khung 1/4. Đáy đệm dưới hông, tựa phía sau thân, đầu trước hướng về vô lăng. Độ dày và vị trí đệm tương đồng các khung ngồi; chữ đúng, ở khoảng giữa thấp, không che mặt hay phần đệm nhìn thấy.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    },
+    {
+      "number": 4,
+      "person_position": "seated_driver",
+      "layout_ok": true,
+      "face_visible": true,
+      "text_ok": true,
+      "reason": "Người vẫn ngồi trên cùng ghế lái, vô lăng phía trước và chân trong khoang. Tựa đệm áp lưng ghế, đáy chạy dọc ghế về phía bảng điều khiển; mép đáy, độ dày và tỷ lệ với ghế nhất quán với khung 1/3. CTA đầy đủ, nằm thấp, không che đệm hoặc bị cắt. Số và thời gian đúng.",
+      "product_orientation_ok": true,
+      "product_scale_ok": true,
+      "text_placement_ok": true
+    }
+  ],
+  "review_file": "generated/reviews/share-codex-portable-1791983564487.json",
+  "checked_at": "2026-10-14T13:13:18.145Z"
+}
